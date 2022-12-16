@@ -1,0 +1,544 @@
+Uri: https://chophanmem.webtudong8giay.com/
+File Name: C:\Downloaded Web Sites\chophanmem.webtudong8giay.com\index.htm
+Content Type: text/html
+
+Uri: https://chophanmem.webtudong8giay.com/comments/feed/
+File Name: C:\Downloaded Web Sites\chophanmem.webtudong8giay.com\comments\feed\index.htm
+Content Type: application/rss+xml
+
+Uri: https://chophanmem.webtudong8giay.com/danh-muc-san-pham/bundle/
+File Name: C:\Downloaded Web Sites\chophanmem.webtudong8giay.com\danh-muc-san-pham\bundle\index.htm
+Content Type: text/html
+
+Uri: https://chophanmem.webtudong8giay.com/danh-muc-san-pham/ecommerce/
+File Name: C:\Downloaded Web Sites\chophanmem.webtudong8giay.com\danh-muc-san-pham\ecommerce\index.htm
+Content Type: text/html
+
+Uri: https://chophanmem.webtudong8giay.com/danh-muc-san-pham/plugins/
+File Name: C:\Downloaded Web Sites\chophanmem.webtudong8giay.com\danh-muc-san-pham\plugins\index.htm
+Content Type: text/html
+
+Uri: https://chophanmem.webtudong8giay.com/danh-muc-san-pham/premium-key/
+File Name: C:\Downloaded Web Sites\chophanmem.webtudong8giay.com\danh-muc-san-pham\premium-key\index.htm
+Content Type: text/html
+
+Uri: https://chophanmem.webtudong8giay.com/danh-muc-san-pham/themes/
+File Name: C:\Downloaded Web Sites\chophanmem.webtudong8giay.com\danh-muc-san-pham\themes\index.htm
+Content Type: text/html
+
+Uri: https://chophanmem.webtudong8giay.com/danh-muc-san-pham/themes/?add-to-cart=215
+File Name: C:\Downloaded Web Sites\chophanmem.webtudong8giay.com\danh-muc-san-pham\themes\index-1.htm
+Content Type: text/html
+
+Uri: https://chophanmem.webtudong8giay.com/feed/
+File Name: C:\Downloaded Web Sites\chophanmem.webtudong8giay.com\feed\index.htm
+Content Type: application/rss+xml
+
+Uri: https://chophanmem.webtudong8giay.com/membership/
+File Name: C:\Downloaded Web Sites\chophanmem.webtudong8giay.com\membership\index.htm
+Content Type: text/html
+
+Uri: https://chophanmem.webtudong8giay.com/trang-chu/feed/
+File Name: C:\Downloaded Web Sites\chophanmem.webtudong8giay.com\trang-chu\feed\index.htm
+Content Type: application/rss+xml
+
+Uri: https://chophanmem.webtudong8giay.com/wp-content/plugins/devvn-quick-buy/css/devvn-quick-buy.css?ver=2.1.3
+File Name: C:\Downloaded Web Sites\chophanmem.webtudong8giay.com\wp-content\plugins\devvn-quick-buy\css\devvn-quick-buy.css
+Content Type: text/css
+
+Uri: https://chophanmem.webtudong8giay.com/wp-content/plugins/devvn-quick-buy/images/close.png
+File Name: C:\Downloaded Web Sites\chophanmem.webtudong8giay.com\wp-content\plugins\devvn-quick-buy\images\close.png
+Content Type: image/png
+
+Uri: https://chophanmem.webtudong8giay.com/wp-content/plugins/devvn-quick-buy/js/devvn-quick-buy.js?ver=2.1.3
+File Name: C:\Downloaded Web Sites\chophanmem.webtudong8giay.com\wp-content\plugins\devvn-quick-buy\js\devvn-quick-buy.js
+Content Type: application/javascript
+
+Uri: https://chophanmem.webtudong8giay.com/wp-content/plugins/devvn-quick-buy/js/jquery.validate.min.js?ver=2.1.3
+File Name: C:\Downloaded Web Sites\chophanmem.webtudong8giay.com\wp-content\plugins\devvn-quick-buy\js\jquery.validate.min.js
+Content Type: application/javascript
+
+Uri: https://chophanmem.webtudong8giay.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart-variation.min.js?ver=7.0.0
+File Name: C:\Downloaded Web Sites\chophanmem.webtudong8giay.com\wp-content\plugins\woocommerce\assets\js\frontend\add-to-cart-variation.min.js
+Content Type: application/javascript
+
+Uri: https://chophanmem.webtudong8giay.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart-variation.min.js?ver=7.1.0
+File Name: C:\Downloaded Web Sites\chophanmem.webtudong8giay.com\wp-content\plugins\woocommerce\assets\js\frontend\add-to-cart-variation.min-1.js
+Content Type: application/javascript
+
+Uri: https://chophanmem.webtudong8giay.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=7.0.0
+File Name: C:\Downloaded Web Sites\chophanmem.webtudong8giay.com\wp-content\plugins\woocommerce\assets\js\frontend\add-to-cart.min.js
+Content Type: application/javascript
+
+Uri: https://chophanmem.webtudong8giay.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=7.1.0
+File Name: C:\Downloaded Web Sites\chophanmem.webtudong8giay.com\wp-content\plugins\woocommerce\assets\js\frontend\add-to-cart.min-1.js
+Content Type: application/javascript
+
+Uri: https://chophanmem.webtudong8giay.com/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js?ver=7.0.0
+File Name: C:\Downloaded Web Sites\chophanmem.webtudong8giay.com\wp-content\plugins\woocommerce\assets\js\frontend\cart-fragments.min.js
+Content Type: application/javascript
+
+Uri: https://chophanmem.webtudong8giay.com/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js?ver=7.1.0
+File Name: C:\Downloaded Web Sites\chophanmem.webtudong8giay.com\wp-content\plugins\woocommerce\assets\js\frontend\cart-fragments.min-1.js
+Content Type: application/javascript
+
+Uri: https://chophanmem.webtudong8giay.com/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=7.0.0
+File Name: C:\Downloaded Web Sites\chophanmem.webtudong8giay.com\wp-content\plugins\woocommerce\assets\js\frontend\woocommerce.min.js
+Content Type: application/javascript
+
+Uri: https://chophanmem.webtudong8giay.com/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=7.1.0
+File Name: C:\Downloaded Web Sites\chophanmem.webtudong8giay.com\wp-content\plugins\woocommerce\assets\js\frontend\woocommerce.min-1.js
+Content Type: application/javascript
+
+Uri: https://chophanmem.webtudong8giay.com/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.7.0.0
+File Name: C:\Downloaded Web Sites\chophanmem.webtudong8giay.com\wp-content\plugins\woocommerce\assets\js\jquery-blockui\jquery.blockUI.min.js
+Content Type: application/javascript
+
+Uri: https://chophanmem.webtudong8giay.com/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.7.1.0
+File Name: C:\Downloaded Web Sites\chophanmem.webtudong8giay.com\wp-content\plugins\woocommerce\assets\js\jquery-blockui\jquery.blockUI.min-1.js
+Content Type: application/javascript
+
+Uri: https://chophanmem.webtudong8giay.com/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.7.0.0
+File Name: C:\Downloaded Web Sites\chophanmem.webtudong8giay.com\wp-content\plugins\woocommerce\assets\js\js-cookie\js.cookie.min.js
+Content Type: application/javascript
+
+Uri: https://chophanmem.webtudong8giay.com/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.7.1.0
+File Name: C:\Downloaded Web Sites\chophanmem.webtudong8giay.com\wp-content\plugins\woocommerce\assets\js\js-cookie\js.cookie.min-1.js
+Content Type: application/javascript
+
+Uri: https://chophanmem.webtudong8giay.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/blocks-checkout.js?ver=1aeb3f9cd2b4952d3b7c658c3ac54767
+File Name: C:\Downloaded Web Sites\chophanmem.webtudong8giay.com\wp-content\plugins\woocommerce\packages\woocommerce-blocks\build\blocks-checkout.js
+Content Type: application/javascript
+
+Uri: https://chophanmem.webtudong8giay.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/cart-frontend.js?ver=6d77f57ad4d2f28e9fae7e9327b354c9
+File Name: C:\Downloaded Web Sites\chophanmem.webtudong8giay.com\wp-content\plugins\woocommerce\packages\woocommerce-blocks\build\cart-frontend.js
+Content Type: application/javascript
+
+Uri: https://chophanmem.webtudong8giay.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/checkout-frontend.js?ver=a4392447bf571a544c579a23dd39b854
+File Name: C:\Downloaded Web Sites\chophanmem.webtudong8giay.com\wp-content\plugins\woocommerce\packages\woocommerce-blocks\build\checkout-frontend.js
+Content Type: application/javascript
+
+Uri: https://chophanmem.webtudong8giay.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/price-format.js?ver=e99bed7a5cf7f43aadbce4396ccbcc5e
+File Name: C:\Downloaded Web Sites\chophanmem.webtudong8giay.com\wp-content\plugins\woocommerce\packages\woocommerce-blocks\build\price-format.js
+Content Type: application/javascript
+
+Uri: https://chophanmem.webtudong8giay.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/wc-blocks-data.js?ver=7318f17e99fb56cda4dd7e6fbc16db3c
+File Name: C:\Downloaded Web Sites\chophanmem.webtudong8giay.com\wp-content\plugins\woocommerce\packages\woocommerce-blocks\build\wc-blocks-data.js
+Content Type: application/javascript
+
+Uri: https://chophanmem.webtudong8giay.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/wc-blocks-middleware.js?ver=cfefc68c23f627155c81d4aa8d2dbf3c
+File Name: C:\Downloaded Web Sites\chophanmem.webtudong8giay.com\wp-content\plugins\woocommerce\packages\woocommerce-blocks\build\wc-blocks-middleware.js
+Content Type: application/javascript
+
+Uri: https://chophanmem.webtudong8giay.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/wc-blocks-registry.js?ver=b6339851784e6ad947a8015afb8847ff
+File Name: C:\Downloaded Web Sites\chophanmem.webtudong8giay.com\wp-content\plugins\woocommerce\packages\woocommerce-blocks\build\wc-blocks-registry.js
+Content Type: application/javascript
+
+Uri: https://chophanmem.webtudong8giay.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/wc-blocks-shared-context.js?ver=65e3c38669e82f3ed75ea378b29997f0
+File Name: C:\Downloaded Web Sites\chophanmem.webtudong8giay.com\wp-content\plugins\woocommerce\packages\woocommerce-blocks\build\wc-blocks-shared-context.js
+Content Type: application/javascript
+
+Uri: https://chophanmem.webtudong8giay.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/wc-blocks-shared-hocs.js?ver=55647c9b478bc30776b5c52dc41b4954
+File Name: C:\Downloaded Web Sites\chophanmem.webtudong8giay.com\wp-content\plugins\woocommerce\packages\woocommerce-blocks\build\wc-blocks-shared-hocs.js
+Content Type: application/javascript
+
+Uri: https://chophanmem.webtudong8giay.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/wc-blocks-style.css?ver=8.5.1
+File Name: C:\Downloaded Web Sites\chophanmem.webtudong8giay.com\wp-content\plugins\woocommerce\packages\woocommerce-blocks\build\wc-blocks-style.css
+Content Type: text/css
+
+Uri: https://chophanmem.webtudong8giay.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/wc-blocks-style.css?ver=8.7.5
+File Name: C:\Downloaded Web Sites\chophanmem.webtudong8giay.com\wp-content\plugins\woocommerce\packages\woocommerce-blocks\build\wc-blocks-style-1.css
+Content Type: text/css
+
+Uri: https://chophanmem.webtudong8giay.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/wc-blocks-vendors-style.css?ver=8.5.1
+File Name: C:\Downloaded Web Sites\chophanmem.webtudong8giay.com\wp-content\plugins\woocommerce\packages\woocommerce-blocks\build\wc-blocks-vendors-style.css
+Content Type: text/css
+
+Uri: https://chophanmem.webtudong8giay.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/wc-blocks-vendors-style.css?ver=8.7.5
+File Name: C:\Downloaded Web Sites\chophanmem.webtudong8giay.com\wp-content\plugins\woocommerce\packages\woocommerce-blocks\build\wc-blocks-vendors-style-1.css
+Content Type: text/css
+
+Uri: https://chophanmem.webtudong8giay.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/wc-settings.js?ver=7b2188da90828d22e68dae2a8129bd03
+File Name: C:\Downloaded Web Sites\chophanmem.webtudong8giay.com\wp-content\plugins\woocommerce\packages\woocommerce-blocks\build\wc-settings.js
+Content Type: application/javascript
+
+Uri: https://chophanmem.webtudong8giay.com/wp-content/themes/flatsome-child/style.css?ver=3.11.3
+File Name: C:\Downloaded Web Sites\chophanmem.webtudong8giay.com\wp-content\themes\flatsome-child\style.css
+Content Type: text/css
+
+Uri: https://chophanmem.webtudong8giay.com/wp-content/themes/flatsome/assets/css/fl-icons.css?ver=3.12
+File Name: C:\Downloaded Web Sites\chophanmem.webtudong8giay.com\wp-content\themes\flatsome\assets\css\fl-icons.css
+Content Type: text/css
+
+Uri: https://chophanmem.webtudong8giay.com/wp-content/themes/flatsome/assets/css/flatsome-shop.css?ver=3.13.3
+File Name: C:\Downloaded Web Sites\chophanmem.webtudong8giay.com\wp-content\themes\flatsome\assets\css\flatsome-shop.css
+Content Type: text/css
+
+Uri: https://chophanmem.webtudong8giay.com/wp-content/themes/flatsome/assets/css/flatsome.css?ver=3.13.3
+File Name: C:\Downloaded Web Sites\chophanmem.webtudong8giay.com\wp-content\themes\flatsome\assets\css\flatsome.css
+Content Type: text/css
+
+Uri: https://chophanmem.webtudong8giay.com/wp-content/themes/flatsome/assets/css/icons/fl-icons.eot
+File Name: C:\Downloaded Web Sites\chophanmem.webtudong8giay.com\wp-content\themes\flatsome\assets\css\icons\fl-icons.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://chophanmem.webtudong8giay.com/wp-content/themes/flatsome/assets/css/icons/fl-icons.svg
+File Name: C:\Downloaded Web Sites\chophanmem.webtudong8giay.com\wp-content\themes\flatsome\assets\css\icons\fl-icons.svg
+Content Type: image/svg+xml
+
+Uri: https://chophanmem.webtudong8giay.com/wp-content/themes/flatsome/assets/css/icons/fl-icons.ttf
+File Name: C:\Downloaded Web Sites\chophanmem.webtudong8giay.com\wp-content\themes\flatsome\assets\css\icons\fl-icons.ttf
+Content Type: application/x-font-ttf
+
+Uri: https://chophanmem.webtudong8giay.com/wp-content/themes/flatsome/assets/css/icons/fl-icons.woff
+File Name: C:\Downloaded Web Sites\chophanmem.webtudong8giay.com\wp-content\themes\flatsome\assets\css\icons\fl-icons.woff
+Content Type: application/x-font-woff
+
+Uri: https://chophanmem.webtudong8giay.com/wp-content/themes/flatsome/assets/css/icons/fl-icons.woff2
+File Name: C:\Downloaded Web Sites\chophanmem.webtudong8giay.com\wp-content\themes\flatsome\assets\css\icons\fl-icons.woff2
+Content Type: 
+
+Uri: https://chophanmem.webtudong8giay.com/wp-content/themes/flatsome/assets/img/shadow@2x.png
+File Name: C:\Downloaded Web Sites\chophanmem.webtudong8giay.com\wp-content\themes\flatsome\assets\img\shadow@2x.png
+Content Type: image/png
+
+Uri: https://chophanmem.webtudong8giay.com/wp-content/themes/flatsome/assets/img/underline.png
+File Name: C:\Downloaded Web Sites\chophanmem.webtudong8giay.com\wp-content\themes\flatsome\assets\img\underline.png
+Content Type: image/png
+
+Uri: https://chophanmem.webtudong8giay.com/wp-content/themes/flatsome/assets/js/flatsome.js?ver=3.13.3
+File Name: C:\Downloaded Web Sites\chophanmem.webtudong8giay.com\wp-content\themes\flatsome\assets\js\flatsome.js
+Content Type: application/javascript
+
+Uri: https://chophanmem.webtudong8giay.com/wp-content/themes/flatsome/assets/js/woocommerce.js?ver=3.13.3
+File Name: C:\Downloaded Web Sites\chophanmem.webtudong8giay.com\wp-content\themes\flatsome\assets\js\woocommerce.js
+Content Type: application/javascript
+
+Uri: https://chophanmem.webtudong8giay.com/wp-content/themes/flatsome/inc/extensions/flatsome-lazy-load/flatsome-lazy-load.js?ver=3.13.3
+File Name: C:\Downloaded Web Sites\chophanmem.webtudong8giay.com\wp-content\themes\flatsome\inc\extensions\flatsome-lazy-load\flatsome-lazy-load.js
+Content Type: application/javascript
+
+Uri: https://chophanmem.webtudong8giay.com/wp-content/uploads/2019/11/bg-footer.jpg
+File Name: C:\Downloaded Web Sites\chophanmem.webtudong8giay.com\wp-content\uploads\2019\11\bg-footer.jpg
+Content Type: image/jpeg
+
+Uri: https://chophanmem.webtudong8giay.com/wp-content/uploads/2019/11/cropped-favicon-02-180x180.png
+File Name: C:\Downloaded Web Sites\chophanmem.webtudong8giay.com\wp-content\uploads\2019\11\cropped-favicon-02-180x180.png
+Content Type: image/png
+
+Uri: https://chophanmem.webtudong8giay.com/wp-content/uploads/2019/11/cropped-favicon-02-192x192.png
+File Name: C:\Downloaded Web Sites\chophanmem.webtudong8giay.com\wp-content\uploads\2019\11\cropped-favicon-02-192x192.png
+Content Type: image/png
+
+Uri: https://chophanmem.webtudong8giay.com/wp-content/uploads/2019/11/cropped-favicon-02-32x32.png
+File Name: C:\Downloaded Web Sites\chophanmem.webtudong8giay.com\wp-content\uploads\2019\11\cropped-favicon-02-32x32.png
+Content Type: image/png
+
+Uri: https://chophanmem.webtudong8giay.com/wp-content/uploads/2019/11/elegant_themes-logo-300x75.png
+File Name: C:\Downloaded Web Sites\chophanmem.webtudong8giay.com\wp-content\uploads\2019\11\elegant_themes-logo-300x75.png
+Content Type: image/png
+
+Uri: https://chophanmem.webtudong8giay.com/wp-content/uploads/2019/11/elegant_themes-logo.png
+File Name: C:\Downloaded Web Sites\chophanmem.webtudong8giay.com\wp-content\uploads\2019\11\elegant_themes-logo.png
+Content Type: image/png
+
+Uri: https://chophanmem.webtudong8giay.com/wp-content/uploads/2019/11/icon1-100x100.jpg
+File Name: C:\Downloaded Web Sites\chophanmem.webtudong8giay.com\wp-content\uploads\2019\11\icon1-100x100.jpg
+Content Type: image/jpeg
+
+Uri: https://chophanmem.webtudong8giay.com/wp-content/uploads/2019/11/icon1.jpg
+File Name: C:\Downloaded Web Sites\chophanmem.webtudong8giay.com\wp-content\uploads\2019\11\icon1.jpg
+Content Type: image/jpeg
+
+Uri: https://chophanmem.webtudong8giay.com/wp-content/uploads/2019/11/logo-final-02.png
+File Name: C:\Downloaded Web Sites\chophanmem.webtudong8giay.com\wp-content\uploads\2019\11\logo-final-02.png
+Content Type: image/png
+
+Uri: https://chophanmem.webtudong8giay.com/wp-content/uploads/2019/11/mythemeshop-logo-300x75.png
+File Name: C:\Downloaded Web Sites\chophanmem.webtudong8giay.com\wp-content\uploads\2019\11\mythemeshop-logo-300x75.png
+Content Type: image/png
+
+Uri: https://chophanmem.webtudong8giay.com/wp-content/uploads/2019/11/mythemeshop-logo.png
+File Name: C:\Downloaded Web Sites\chophanmem.webtudong8giay.com\wp-content\uploads\2019\11\mythemeshop-logo.png
+Content Type: image/png
+
+Uri: https://chophanmem.webtudong8giay.com/wp-content/uploads/2019/11/optimize-press-logo-300x75.png
+File Name: C:\Downloaded Web Sites\chophanmem.webtudong8giay.com\wp-content\uploads\2019\11\optimize-press-logo-300x75.png
+Content Type: image/png
+
+Uri: https://chophanmem.webtudong8giay.com/wp-content/uploads/2019/11/optimize-press-logo.png
+File Name: C:\Downloaded Web Sites\chophanmem.webtudong8giay.com\wp-content\uploads\2019\11\optimize-press-logo.png
+Content Type: image/png
+
+Uri: https://chophanmem.webtudong8giay.com/wp-content/uploads/2019/11/red-pattern.png
+File Name: C:\Downloaded Web Sites\chophanmem.webtudong8giay.com\wp-content\uploads\2019\11\red-pattern.png
+Content Type: image/png
+
+Uri: https://chophanmem.webtudong8giay.com/wp-content/uploads/2019/11/studiopress-logo-300x75.png
+File Name: C:\Downloaded Web Sites\chophanmem.webtudong8giay.com\wp-content\uploads\2019\11\studiopress-logo-300x75.png
+Content Type: image/png
+
+Uri: https://chophanmem.webtudong8giay.com/wp-content/uploads/2019/11/studiopress-logo.png
+File Name: C:\Downloaded Web Sites\chophanmem.webtudong8giay.com\wp-content\uploads\2019\11\studiopress-logo.png
+Content Type: image/png
+
+Uri: https://chophanmem.webtudong8giay.com/wp-content/uploads/2019/11/thanh-toan-100x100.jpg
+File Name: C:\Downloaded Web Sites\chophanmem.webtudong8giay.com\wp-content\uploads\2019\11\thanh-toan-100x100.jpg
+Content Type: image/jpeg
+
+Uri: https://chophanmem.webtudong8giay.com/wp-content/uploads/2019/11/thanh-toan.jpg
+File Name: C:\Downloaded Web Sites\chophanmem.webtudong8giay.com\wp-content\uploads\2019\11\thanh-toan.jpg
+Content Type: image/jpeg
+
+Uri: https://chophanmem.webtudong8giay.com/wp-content/uploads/2019/11/them-moi-100x100.jpg
+File Name: C:\Downloaded Web Sites\chophanmem.webtudong8giay.com\wp-content\uploads\2019\11\them-moi-100x100.jpg
+Content Type: image/jpeg
+
+Uri: https://chophanmem.webtudong8giay.com/wp-content/uploads/2019/11/them-moi.jpg
+File Name: C:\Downloaded Web Sites\chophanmem.webtudong8giay.com\wp-content\uploads\2019\11\them-moi.jpg
+Content Type: image/jpeg
+
+Uri: https://chophanmem.webtudong8giay.com/wp-content/uploads/2019/11/update-icon-100x100.jpg
+File Name: C:\Downloaded Web Sites\chophanmem.webtudong8giay.com\wp-content\uploads\2019\11\update-icon-100x100.jpg
+Content Type: image/jpeg
+
+Uri: https://chophanmem.webtudong8giay.com/wp-content/uploads/2019/11/update-icon.jpg
+File Name: C:\Downloaded Web Sites\chophanmem.webtudong8giay.com\wp-content\uploads\2019\11\update-icon.jpg
+Content Type: image/jpeg
+
+Uri: https://chophanmem.webtudong8giay.com/wp-content/uploads/2019/11/wootheme-logo-300x75.png
+File Name: C:\Downloaded Web Sites\chophanmem.webtudong8giay.com\wp-content\uploads\2019\11\wootheme-logo-300x75.png
+Content Type: image/png
+
+Uri: https://chophanmem.webtudong8giay.com/wp-content/uploads/2019/11/wootheme-logo.png
+File Name: C:\Downloaded Web Sites\chophanmem.webtudong8giay.com\wp-content\uploads\2019\11\wootheme-logo.png
+Content Type: image/png
+
+Uri: https://chophanmem.webtudong8giay.com/wp-content/uploads/2019/11/wprocket-logo-300x75.png
+File Name: C:\Downloaded Web Sites\chophanmem.webtudong8giay.com\wp-content\uploads\2019\11\wprocket-logo-300x75.png
+Content Type: image/png
+
+Uri: https://chophanmem.webtudong8giay.com/wp-content/uploads/2019/11/wprocket-logo.png
+File Name: C:\Downloaded Web Sites\chophanmem.webtudong8giay.com\wp-content\uploads\2019\11\wprocket-logo.png
+Content Type: image/png
+
+Uri: https://chophanmem.webtudong8giay.com/wp-content/uploads/2019/11/yellow-pattern-1.png
+File Name: C:\Downloaded Web Sites\chophanmem.webtudong8giay.com\wp-content\uploads\2019\11\yellow-pattern-1.png
+Content Type: image/png
+
+Uri: https://chophanmem.webtudong8giay.com/wp-includes/js/dist/a11y.min.js?ver=a38319d7ba46c6e60f7f9d4c371222c5
+File Name: C:\Downloaded Web Sites\chophanmem.webtudong8giay.com\wp-includes\js\dist\a11y.min.js
+Content Type: application/javascript
+
+Uri: https://chophanmem.webtudong8giay.com/wp-includes/js/dist/api-fetch.min.js?ver=63050163caffa6aac54e9ebf21fe0472
+File Name: C:\Downloaded Web Sites\chophanmem.webtudong8giay.com\wp-includes\js\dist\api-fetch.min.js
+Content Type: application/javascript
+
+Uri: https://chophanmem.webtudong8giay.com/wp-includes/js/dist/autop.min.js?ver=21d1d6c005241b908b592f52ad684a28
+File Name: C:\Downloaded Web Sites\chophanmem.webtudong8giay.com\wp-includes\js\dist\autop.min.js
+Content Type: application/javascript
+
+Uri: https://chophanmem.webtudong8giay.com/wp-includes/js/dist/blob.min.js?ver=87cf2365cd719a6954f1e2bb8bcc692a
+File Name: C:\Downloaded Web Sites\chophanmem.webtudong8giay.com\wp-includes\js\dist\blob.min.js
+Content Type: application/javascript
+
+Uri: https://chophanmem.webtudong8giay.com/wp-includes/js/dist/block-editor.min.js?ver=1aaefec40aaf345b5e6e969304e78e07
+File Name: C:\Downloaded Web Sites\chophanmem.webtudong8giay.com\wp-includes\js\dist\block-editor.min.js
+Content Type: application/javascript
+
+Uri: https://chophanmem.webtudong8giay.com/wp-includes/js/dist/block-serialization-default-parser.min.js?ver=8ee151736a1e51db2bafbb61ddd60634
+File Name: C:\Downloaded Web Sites\chophanmem.webtudong8giay.com\wp-includes\js\dist\block-serialization-default-parser.min.js
+Content Type: application/javascript
+
+Uri: https://chophanmem.webtudong8giay.com/wp-includes/js/dist/blocks.min.js?ver=658a51e7220626e26a92a46af5c2e489
+File Name: C:\Downloaded Web Sites\chophanmem.webtudong8giay.com\wp-includes\js\dist\blocks.min.js
+Content Type: application/javascript
+
+Uri: https://chophanmem.webtudong8giay.com/wp-includes/js/dist/components.min.js?ver=76c5a4c54d97b02824ed3d3b164c2811
+File Name: C:\Downloaded Web Sites\chophanmem.webtudong8giay.com\wp-includes\js\dist\components.min.js
+Content Type: application/javascript
+
+Uri: https://chophanmem.webtudong8giay.com/wp-includes/js/dist/compose.min.js?ver=e52c48958a19b766c6a9d28c02d53575
+File Name: C:\Downloaded Web Sites\chophanmem.webtudong8giay.com\wp-includes\js\dist\compose.min.js
+Content Type: application/javascript
+
+Uri: https://chophanmem.webtudong8giay.com/wp-includes/js/dist/data-controls.min.js?ver=6a75067d86cf9ab901a4646595575446
+File Name: C:\Downloaded Web Sites\chophanmem.webtudong8giay.com\wp-includes\js\dist\data-controls.min.js
+Content Type: application/javascript
+
+Uri: https://chophanmem.webtudong8giay.com/wp-includes/js/dist/data.min.js?ver=6c1ab5799c4b061254d313d2d8d9fb87
+File Name: C:\Downloaded Web Sites\chophanmem.webtudong8giay.com\wp-includes\js\dist\data.min.js
+Content Type: application/javascript
+
+Uri: https://chophanmem.webtudong8giay.com/wp-includes/js/dist/date.min.js?ver=e923a564a0407e0c2ffcbd348817ca86
+File Name: C:\Downloaded Web Sites\chophanmem.webtudong8giay.com\wp-includes\js\dist\date.min.js
+Content Type: application/javascript
+
+Uri: https://chophanmem.webtudong8giay.com/wp-includes/js/dist/deprecated.min.js?ver=96593d5d272d008fbcb6912fa0b86778
+File Name: C:\Downloaded Web Sites\chophanmem.webtudong8giay.com\wp-includes\js\dist\deprecated.min.js
+Content Type: application/javascript
+
+Uri: https://chophanmem.webtudong8giay.com/wp-includes/js/dist/dom-ready.min.js?ver=d996b53411d1533a84951212ab6ac4ff
+File Name: C:\Downloaded Web Sites\chophanmem.webtudong8giay.com\wp-includes\js\dist\dom-ready.min.js
+Content Type: application/javascript
+
+Uri: https://chophanmem.webtudong8giay.com/wp-includes/js/dist/dom.min.js?ver=3c10edc1abf3fbbc79f17fd7d1d332eb
+File Name: C:\Downloaded Web Sites\chophanmem.webtudong8giay.com\wp-includes\js\dist\dom.min.js
+Content Type: application/javascript
+
+Uri: https://chophanmem.webtudong8giay.com/wp-includes/js/dist/element.min.js?ver=3dfdc75a0abf30f057df44e9a39abe5b
+File Name: C:\Downloaded Web Sites\chophanmem.webtudong8giay.com\wp-includes\js\dist\element.min.js
+Content Type: application/javascript
+
+Uri: https://chophanmem.webtudong8giay.com/wp-includes/js/dist/escape-html.min.js?ver=00a5735837e9efe13da1d979f16a7105
+File Name: C:\Downloaded Web Sites\chophanmem.webtudong8giay.com\wp-includes\js\dist\escape-html.min.js
+Content Type: application/javascript
+
+Uri: https://chophanmem.webtudong8giay.com/wp-includes/js/dist/hooks.min.js?ver=c6d64f2cb8f5c6bb49caca37f8828ce3
+File Name: C:\Downloaded Web Sites\chophanmem.webtudong8giay.com\wp-includes\js\dist\hooks.min.js
+Content Type: application/javascript
+
+Uri: https://chophanmem.webtudong8giay.com/wp-includes/js/dist/html-entities.min.js?ver=c6385fb7cd9fdada1cf8892a545f8a26
+File Name: C:\Downloaded Web Sites\chophanmem.webtudong8giay.com\wp-includes\js\dist\html-entities.min.js
+Content Type: application/javascript
+
+Uri: https://chophanmem.webtudong8giay.com/wp-includes/js/dist/i18n.min.js?ver=ebee46757c6a411e38fd079a7ac71d94
+File Name: C:\Downloaded Web Sites\chophanmem.webtudong8giay.com\wp-includes\js\dist\i18n.min.js
+Content Type: application/javascript
+
+Uri: https://chophanmem.webtudong8giay.com/wp-includes/js/dist/is-shallow-equal.min.js?ver=649feec00389556f8015a6b97efc1cb1
+File Name: C:\Downloaded Web Sites\chophanmem.webtudong8giay.com\wp-includes\js\dist\is-shallow-equal.min.js
+Content Type: application/javascript
+
+Uri: https://chophanmem.webtudong8giay.com/wp-includes/js/dist/keyboard-shortcuts.min.js?ver=37fdd241f3be3126e9248060e363e7c9
+File Name: C:\Downloaded Web Sites\chophanmem.webtudong8giay.com\wp-includes\js\dist\keyboard-shortcuts.min.js
+Content Type: application/javascript
+
+Uri: https://chophanmem.webtudong8giay.com/wp-includes/js/dist/keycodes.min.js?ver=84a0e6bbcf0b9e1ea0184c3f2bf28022
+File Name: C:\Downloaded Web Sites\chophanmem.webtudong8giay.com\wp-includes\js\dist\keycodes.min.js
+Content Type: application/javascript
+
+Uri: https://chophanmem.webtudong8giay.com/wp-includes/js/dist/notices.min.js?ver=e44820c667bf205cacdfc48cbeb3c2e6
+File Name: C:\Downloaded Web Sites\chophanmem.webtudong8giay.com\wp-includes\js\dist\notices.min.js
+Content Type: application/javascript
+
+Uri: https://chophanmem.webtudong8giay.com/wp-includes/js/dist/plugins.min.js?ver=f885533aefb501e1eedcbd4a9d04ca70
+File Name: C:\Downloaded Web Sites\chophanmem.webtudong8giay.com\wp-includes\js\dist\plugins.min.js
+Content Type: application/javascript
+
+Uri: https://chophanmem.webtudong8giay.com/wp-includes/js/dist/primitives.min.js?ver=cadf5cfaabdb15c8c8fc440547afe919
+File Name: C:\Downloaded Web Sites\chophanmem.webtudong8giay.com\wp-includes\js\dist\primitives.min.js
+Content Type: application/javascript
+
+Uri: https://chophanmem.webtudong8giay.com/wp-includes/js/dist/priority-queue.min.js?ver=efad6460ae6b28406d39866cb10731e0
+File Name: C:\Downloaded Web Sites\chophanmem.webtudong8giay.com\wp-includes\js\dist\priority-queue.min.js
+Content Type: application/javascript
+
+Uri: https://chophanmem.webtudong8giay.com/wp-includes/js/dist/redux-routine.min.js?ver=5156478c032ea85a2bbdceeb7a43b0c1
+File Name: C:\Downloaded Web Sites\chophanmem.webtudong8giay.com\wp-includes\js\dist\redux-routine.min.js
+Content Type: application/javascript
+
+Uri: https://chophanmem.webtudong8giay.com/wp-includes/js/dist/rich-text.min.js?ver=e7d57502b62ec4756783a0cd79238841
+File Name: C:\Downloaded Web Sites\chophanmem.webtudong8giay.com\wp-includes\js\dist\rich-text.min.js
+Content Type: application/javascript
+
+Uri: https://chophanmem.webtudong8giay.com/wp-includes/js/dist/shortcode.min.js?ver=d6964e945049b6190adc8770cda168c4
+File Name: C:\Downloaded Web Sites\chophanmem.webtudong8giay.com\wp-includes\js\dist\shortcode.min.js
+Content Type: application/javascript
+
+Uri: https://chophanmem.webtudong8giay.com/wp-includes/js/dist/token-list.min.js?ver=4ebce6423dfff99d40033fd33ce52cc9
+File Name: C:\Downloaded Web Sites\chophanmem.webtudong8giay.com\wp-includes\js\dist\token-list.min.js
+Content Type: application/javascript
+
+Uri: https://chophanmem.webtudong8giay.com/wp-includes/js/dist/url.min.js?ver=16385e4d69da65c7283790971de6b297
+File Name: C:\Downloaded Web Sites\chophanmem.webtudong8giay.com\wp-includes\js\dist\url.min.js
+Content Type: application/javascript
+
+Uri: https://chophanmem.webtudong8giay.com/wp-includes/js/dist/vendor/lodash.min.js?ver=4.17.19
+File Name: C:\Downloaded Web Sites\chophanmem.webtudong8giay.com\wp-includes\js\dist\vendor\lodash.min.js
+Content Type: application/javascript
+
+Uri: https://chophanmem.webtudong8giay.com/wp-includes/js/dist/vendor/moment.min.js?ver=2.29.4
+File Name: C:\Downloaded Web Sites\chophanmem.webtudong8giay.com\wp-includes\js\dist\vendor\moment.min.js
+Content Type: application/javascript
+
+Uri: https://chophanmem.webtudong8giay.com/wp-includes/js/dist/vendor/react-dom.min.js?ver=17.0.1
+File Name: C:\Downloaded Web Sites\chophanmem.webtudong8giay.com\wp-includes\js\dist\vendor\react-dom.min.js
+Content Type: application/javascript
+
+Uri: https://chophanmem.webtudong8giay.com/wp-includes/js/dist/vendor/react.min.js?ver=17.0.1
+File Name: C:\Downloaded Web Sites\chophanmem.webtudong8giay.com\wp-includes\js\dist\vendor\react.min.js
+Content Type: application/javascript
+
+Uri: https://chophanmem.webtudong8giay.com/wp-includes/js/dist/vendor/regenerator-runtime.min.js?ver=0.13.9
+File Name: C:\Downloaded Web Sites\chophanmem.webtudong8giay.com\wp-includes\js\dist\vendor\regenerator-runtime.min.js
+Content Type: application/javascript
+
+Uri: https://chophanmem.webtudong8giay.com/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0
+File Name: C:\Downloaded Web Sites\chophanmem.webtudong8giay.com\wp-includes\js\dist\vendor\wp-polyfill.min.js
+Content Type: application/javascript
+
+Uri: https://chophanmem.webtudong8giay.com/wp-includes/js/dist/warning.min.js?ver=b9190af8fc6a3a48c580473c6f337b88
+File Name: C:\Downloaded Web Sites\chophanmem.webtudong8giay.com\wp-includes\js\dist\warning.min.js
+Content Type: application/javascript
+
+Uri: https://chophanmem.webtudong8giay.com/wp-includes/js/dist/wordcount.min.js?ver=fb8056c75aa0a0569f7ea3ceae97fbc6
+File Name: C:\Downloaded Web Sites\chophanmem.webtudong8giay.com\wp-includes\js\dist\wordcount.min.js
+Content Type: application/javascript
+
+Uri: https://chophanmem.webtudong8giay.com/wp-includes/js/hoverIntent.min.js?ver=1.10.2
+File Name: C:\Downloaded Web Sites\chophanmem.webtudong8giay.com\wp-includes\js\hoverIntent.min.js
+Content Type: application/javascript
+
+Uri: https://chophanmem.webtudong8giay.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2
+File Name: C:\Downloaded Web Sites\chophanmem.webtudong8giay.com\wp-includes\js\jquery\jquery-migrate.min.js
+Content Type: application/javascript
+
+Uri: https://chophanmem.webtudong8giay.com/wp-includes/js/jquery/jquery.min.js?ver=3.6.0
+File Name: C:\Downloaded Web Sites\chophanmem.webtudong8giay.com\wp-includes\js\jquery\jquery.min.js
+Content Type: application/javascript
+
+Uri: https://chophanmem.webtudong8giay.com/wp-includes/js/underscore.min.js?ver=1.13.3
+File Name: C:\Downloaded Web Sites\chophanmem.webtudong8giay.com\wp-includes\js\underscore.min.js
+Content Type: application/javascript
+
+Uri: https://chophanmem.webtudong8giay.com/wp-includes/js/wp-util.min.js?ver=6.0.2
+File Name: C:\Downloaded Web Sites\chophanmem.webtudong8giay.com\wp-includes\js\wp-util.min.js
+Content Type: application/javascript
+
+Uri: https://chophanmem.webtudong8giay.com/wp-includes/wlwmanifest.xml
+File Name: C:\Downloaded Web Sites\chophanmem.webtudong8giay.com\wp-includes\wlwmanifest.xml
+Content Type: application/xml
+
+Uri: https://chophanmem.webtudong8giay.com/wp-json/
+File Name: C:\Downloaded Web Sites\chophanmem.webtudong8giay.com\wp-json\index.htm
+Content Type: application/json
+
+Uri: https://chophanmem.webtudong8giay.com/wp-json/wp/v2/pages/2
+File Name: C:\Downloaded Web Sites\chophanmem.webtudong8giay.com\wp-json\wp\v2\pages\2
+Content Type: application/json
+
+Uri: https://chophanmem.webtudong8giay.com/xmlrpc.php?rsd
+File Name: C:\Downloaded Web Sites\chophanmem.webtudong8giay.com\xmlrpc.php
+Content Type: text/xml
+
+Uri: https://fonts.googleapis.com/css?family=Roboto:regular%2C700%2Cregular%2C500|Dancing+Script:regular%2C400&display=swap&ver=3.9
+File Name: C:\Downloaded Web Sites\chophanmem.webtudong8giay.com\css
+Content Type: text/css
+
+Uri: https://fonts.gstatic.com/s/dancingscript/v24/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSo3Sup5.ttf
+File Name: C:\Downloaded Web Sites\chophanmem.webtudong8giay.com\s\dancingscript\v24\If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSo3Sup5.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmEU9fBBc9.ttf
+File Name: C:\Downloaded Web Sites\chophanmem.webtudong8giay.com\s\roboto\v30\KFOlCnqEu92Fr1MmEU9fBBc9.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmWUlfBBc9.ttf
+File Name: C:\Downloaded Web Sites\chophanmem.webtudong8giay.com\s\roboto\v30\KFOlCnqEu92Fr1MmWUlfBBc9.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu4mxP.ttf
+File Name: C:\Downloaded Web Sites\chophanmem.webtudong8giay.com\s\roboto\v30\KFOmCnqEu92Fr1Mu4mxP.ttf
+Content Type: font/ttf
+

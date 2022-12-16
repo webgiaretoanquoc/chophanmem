@@ -1,0 +1,760 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Chợ Phần Mềm</title>
+	<atom:link href="https://chophanmem.webtudong8giay.com/feed/" rel="self" type="application/rss+xml" />
+	<link>https://chophanmem.webtudong8giay.com</link>
+	<description></description>
+	<lastBuildDate>Sat, 22 May 2021 10:21:07 +0000</lastBuildDate>
+	<language>vi</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.2</generator>
+
+<image>
+	<url>https://chophanmem.webtudong8giay.com/wp-content/uploads/2019/11/cropped-favicon-02-32x32.png</url>
+	<title>Chợ Phần Mềm</title>
+	<link>https://chophanmem.webtudong8giay.com</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Sửa lỗi khung bình luận Facebook trên website WordPress đột nhiên bị thu hẹp chiều rộng</title>
+		<link>https://chophanmem.webtudong8giay.com/sua-loi-khung-binh-luan-facebook-tren-website-wordpress-dot-nhien-bi-thu-hep-chieu-rong/</link>
+		
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<pubDate>Thu, 14 Nov 2019 03:38:30 +0000</pubDate>
+				<category><![CDATA[Blogs]]></category>
+		<category><![CDATA[Comment Facebook]]></category>
+		<category><![CDATA[Tùy chỉnh CSS]]></category>
+		<guid isPermaLink="false">http://shopnet.muathemewordpress.net/?p=109</guid>
+
+					<description><![CDATA[Chào các bạn, mấy hôm nay trên mạng đột nhiên xuất hiện tình trạng nhiều bạn than vãn về việc khung bình luận của Facebook (Comment Facebook) trên website WordPress đột nhiên bị thu hẹp chiều rộng, làm cho bố cục bài viết trở nên xộc xệch mất thẩm mỹ. Trong bài viết này, GiuseArt ...]]></description>
+										<content:encoded><![CDATA[<p>Chào các bạn, mấy hôm nay trên mạng đột nhiên xuất hiện tình trạng nhiều bạn than vãn về việc khung bình luận của Facebook (Comment Facebook) trên website WordPress đột nhiên bị thu hẹp chiều rộng, làm cho bố cục bài viết trở nên xộc xệch mất thẩm mỹ. Trong bài viết này, GiuseArt sẽ chỉ cho các bạn cách khắc phục nhé!</p>
+<p>Nguyên nhân của tình trạng này đến từ đâu mình cũng không rõ và chưa có nhiều thời gian để tìm hiểu. Nhưng vì chính website <a href="https://giuseart.com/">GiuseArt.com</a> của mình cũng gặp tình trạng này nên mình đã thử tìm cách khắc phục, và kết quả là thành công. Do đó, nếu bạn gặp trường hợp tương tự dưới đây, thử làm theo cách của mình xem sao nhé!</p>
+<p><strong>Update: Facebook đã fix lỗi và Comment Facebook đã ngon lành trở lại vào ngày 12/10/2018 rồi nhé!</strong></p>
+<p>Các bạn copy và paste đoạn code CSS bên dưới vào phần tùy chỉnh CSS của website nhé.</p>
+<p>Cụ thể như sau:</p>
+<ul>
+<li>Cách phổ thông nhất: <strong>Giao diện &gt; Sửa &gt; Style.css (phổ thông nhất)</strong></li>
+<li>Đối với theme Flatsome: <strong>Giao diện &gt; Tùy chỉnh &gt; Style &gt; Custom CSS &gt; Custom CSS</strong></li>
+</ul>
+<div class="crayon-main">
+<table class="crayon-table">
+<tbody>
+<tr class="crayon-row">
+<td class="crayon-nums " data-settings="show">
+<div class="crayon-nums-content">
+<div class="crayon-num" data-line="crayon-5dcccc1748adf228384398-1">1</div>
+<div class="crayon-num crayon-striped-num" data-line="crayon-5dcccc1748adf228384398-2">2</div>
+<div class="crayon-num" data-line="crayon-5dcccc1748adf228384398-3">3</div>
+<div class="crayon-num crayon-striped-num" data-line="crayon-5dcccc1748adf228384398-4">4</div>
+<div class="crayon-num" data-line="crayon-5dcccc1748adf228384398-5">5</div>
+</div>
+</td>
+<td class="crayon-code">
+<div class="crayon-pre">
+<div id="crayon-5dcccc1748adf228384398-1" class="crayon-line"><span class="crayon-sy">.</span><span class="crayon-v">fb</span><span class="crayon-o">&#8211;</span><span class="crayon-v">comments</span><span class="crayon-sy">,</span> <span class="crayon-sy">.</span><span class="crayon-v">fb</span><span class="crayon-o">&#8211;</span><span class="crayon-e">comments </span><span class="crayon-v">span</span><span class="crayon-sy">,</span> <span class="crayon-sy">.</span><span class="crayon-v">fb</span><span class="crayon-o">&#8211;</span><span class="crayon-e">comments</span> <span class="crayon-e">span</span> <span class="crayon-e">iframe</span><span class="crayon-sy">{</span></div>
+<div id="crayon-5dcccc1748adf228384398-2" class="crayon-line crayon-striped-line"><span class="crayon-v">width</span><span class="crayon-o">:</span><span class="crayon-cn">100</span><span class="crayon-o">%</span> <span class="crayon-o">!</span><span class="crayon-v">important</span><span class="crayon-sy">;</span></div>
+<div id="crayon-5dcccc1748adf228384398-3" class="crayon-line"><span class="crayon-v">display</span><span class="crayon-o">:</span><span class="crayon-v">inline</span><span class="crayon-o">&#8211;</span><span class="crayon-v">block</span> <span class="crayon-o">!</span><span class="crayon-v">important</span><span class="crayon-sy">;</span></div>
+<div id="crayon-5dcccc1748adf228384398-4" class="crayon-line crayon-striped-line"><span class="crayon-v">max</span><span class="crayon-o">&#8211;</span><span class="crayon-v">width</span><span class="crayon-o">:</span><span class="crayon-cn">100</span><span class="crayon-o">%</span> <span class="crayon-o">!</span><span class="crayon-i">important</span></div>
+<div id="crayon-5dcccc1748adf228384398-5" class="crayon-line"><span class="crayon-sy">}</span></div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>Xong rồi các bạn lưu lại và quay trở lại bài viết xem thành quả được chưa nhé!</p>
+<p>Chúc các bạn xử lí thành công.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Hướng dẫn chèn Breadcrumbs cho website WordPress sử dụng plugin Yoast Seo</title>
+		<link>https://chophanmem.webtudong8giay.com/huong-dan-chen-breadcrumbs-cho-website-wordpress-su-dung-plugin-yoast-seo/</link>
+		
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<pubDate>Thu, 14 Nov 2019 03:37:55 +0000</pubDate>
+				<category><![CDATA[Blogs]]></category>
+		<category><![CDATA[Breadcrumbs]]></category>
+		<guid isPermaLink="false">http://shopnet.muathemewordpress.net/?p=106</guid>
+
+					<description><![CDATA[Chào các bạn, trên blog Ninh Bình Web mình cũng đã chia sẻ một bài viết tạo breadcrumbs không sử dụng plugin rồi phải không? Hôm nay, mình sẽ hướng dẫn các bạn thêm một cách nữa để chèn Breadcrumbs cho website WordPress sử dụng plugin Yoast SEO nhé! Bài viết mình hướng dẫn thao tác trên theme ...]]></description>
+										<content:encoded><![CDATA[<p><strong>Chào các bạn, trên blog Ninh Bình Web mình cũng đã chia sẻ một bài viết <a href="https://giuseart.com/tao-breadcrumb-cho-wordpress-khong-dung-plugin/">tạo breadcrumbs không sử dụng plugin</a> rồi phải không? Hôm nay, mình sẽ hướng dẫn các bạn thêm một cách nữa để chèn Breadcrumbs cho website WordPress sử dụng plugin Yoast SEO nhé!</strong></p>
+<p>Bài viết mình hướng dẫn thao tác trên <strong>theme Flatsome</strong> nhé! Do đó, trong quá trình hướng dẫn của mình, một số thao tác có thể sẽ không giống đối với các theme khác. Tuy nhiên, về cơ bản các bạn chỉ cần tìm đúng file .php của trang mà bạn muốn hiển thị Breadcrumbs trong theme là được!</p>
+<h3>Bước 1: Mở tính năng Breadcrumbs trong Yoast SEO</h3>
+<p>Có thể bạn đã cài plugin <a href="https://yoast.com/wordpress/plugins/seo/">Yoast SEO</a> trước đó rồi hoặc nếu chưa cài thì tải plugin về và cài đặt tại đây: <a href="https://vi.wordpress.org/plugins/wordpress-seo/">Free (seo 1 keyword)</a> –<a href="https://drive.google.com/open?id=0B1la2u77mmNJcHZHR3pPTnRsekU"> Fremium (seo nhiều keywords).</a></p>
+<p>Sau khi cài đặt xong, các bạn vào <strong>Quản trị &gt; SEO &gt; Advanced</strong> và mở <strong>Enable Breadcrumbs</strong> (phiên bản 5.7.1)</p>
+<p>Đối với phiên bản <strong>Yoast SEO 7.9 trở lên</strong>, cài đặt <strong>Breadcrumbs</strong> sẽ hơi khác một chút như sau:</p>
+<p>Ngay từ bây giờ website của bạn đã sẵn sàng tính năng <strong>hiển thị Breadcrumbs</strong> rồi nhé.</p>
+<p>Tuy nhiên, không phải chỉ ấn<strong> Enable</strong> là nó hiện luôn, mà việc <strong>quan trọng nhất</strong> là mình phải <strong>chèn một đoạn code PHP bỏ vào đúng vị trí cho nó hiển thị trong theme nữa.</strong> Mời bạn tiếp tục bước 2:</p>
+<h3>Bước 2: Chèn code hiển thị Breadcrumbs trong theme</h3>
+<p>Bây giờ chỉ cần <strong>chèn đoạn code PHP</strong> bên dưới vào bất kỳ vị trí nào trong theme để nó hiển thị.</p>
+<div id="crayon-5dcccbf717651702366241" class="crayon-syntax crayon-theme-classic crayon-font-monaco crayon-os-pc print-yes notranslate" data-settings=" minimize scroll-mouseover">
+<div class="crayon-plain-wrap"></div>
+<div class="crayon-main">
+<table class="crayon-table">
+<tbody>
+<tr class="crayon-row">
+<td class="crayon-nums " data-settings="show">
+<div class="crayon-nums-content">
+<div class="crayon-num" data-line="crayon-5dcccbf717651702366241-1">1</div>
+<div class="crayon-num crayon-striped-num" data-line="crayon-5dcccbf717651702366241-2">2</div>
+<div class="crayon-num" data-line="crayon-5dcccbf717651702366241-3">3</div>
+<div class="crayon-num crayon-striped-num" data-line="crayon-5dcccbf717651702366241-4">4</div>
+<div class="crayon-num" data-line="crayon-5dcccbf717651702366241-5">5</div>
+<div class="crayon-num crayon-striped-num" data-line="crayon-5dcccbf717651702366241-6">6</div>
+<div class="crayon-num" data-line="crayon-5dcccbf717651702366241-7">7</div>
+<div class="crayon-num crayon-striped-num" data-line="crayon-5dcccbf717651702366241-8">8</div>
+</div>
+</td>
+<td class="crayon-code">
+<div class="crayon-pre">
+<div id="crayon-5dcccbf717651702366241-1" class="crayon-line"><span class="crayon-o">&lt;</span><span class="crayon-e">div </span><span class="crayon-t">class</span><span class="crayon-o">=</span><span class="crayon-s">&#8220;breadcrumbs&#8221;</span><span class="crayon-o">&gt;</span></div>
+<div id="crayon-5dcccbf717651702366241-2" class="crayon-line crayon-striped-line"><span class="crayon-ta">&lt;?php</span></div>
+<div id="crayon-5dcccbf717651702366241-3" class="crayon-line"><span class="crayon-st">if</span> <span class="crayon-sy">(</span> <span class="crayon-e">function_exists</span><span class="crayon-sy">(</span><span class="crayon-s">&#8216;yoast_breadcrumb&#8217;</span><span class="crayon-sy">)</span> <span class="crayon-sy">)</span> <span class="crayon-sy">{</span></div>
+<div id="crayon-5dcccbf717651702366241-4" class="crayon-line crayon-striped-line"><span class="crayon-e">yoast_breadcrumb</span><span class="crayon-sy">(</span><span class="crayon-s">&#8216;</span></div>
+<div id="crayon-5dcccbf717651702366241-5" class="crayon-line"><span class="crayon-s">&lt;p id=&#8221;breadcrumbs&#8221;&gt;&#8217;</span><span class="crayon-sy">,</span><span class="crayon-s">&#8216;&lt;/p&gt;&#8217;</span><span class="crayon-sy">)</span><span class="crayon-sy">;</span></div>
+<div id="crayon-5dcccbf717651702366241-6" class="crayon-line crayon-striped-line"><span class="crayon-sy">}</span></div>
+<div id="crayon-5dcccbf717651702366241-7" class="crayon-line"><span class="crayon-ta">?&gt;</span></div>
+<div id="crayon-5dcccbf717651702366241-8" class="crayon-line crayon-striped-line"><span class="crayon-o">&lt;</span><span class="crayon-o">/</span><span class="crayon-v">div</span><span class="crayon-o">&gt;</span></div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<p>Tuy nhiên, theo thói quen điều hướng của người dùng, chúng ta chỉ nên chèn<strong> breadcrumbs</strong> vào đầu các trang đơn <strong>(page.php) </strong>+ trang bài viết <strong>(single.php)</strong><strong>. </strong>Mình sẽ hướng dẫn các bạn thực hiện lần lượt từng trang một trong<strong> theme Flatsome</strong> nhé!</p>
+<h4>Chèn Breadcrumbs vào trang đơn</h4>
+<p>Trang đơn của theme Flatsome có nhiều kiểu <strong>style (template-page)</strong> khác nhau. Do đó, theo ý kiến cá nhân của mình thì chỉ nên chèn Breadcrumbs vào trang đơn có bố cục sidebar trái hoặc sidebar phải, vì nó hiển thị tương đương như trong bài viết nên sẽ đẹp và hữu dụng hơn. Các bạn không nên chèn Breadcrumbs vào các kiểu trang khác, đặc biệt là kiểu<strong> full-width</strong>.</p>
+<p>Các bạn vào File Manager trong hosting, truy cập thư mục <strong>wp-content</strong> &gt; <strong>themes</strong> &gt; <strong>flatsome</strong> &gt;<strong> page-right-sidebar.php</strong> hoặc <strong>page-left-sidebar.php.</strong></p>
+<p>Bây giờ mình sẽ thực hiện chèn <strong>Breadcrumbs</strong> vào trang đơn có sidebar bên phải nhé! Mở file <strong>page-right-sidebar.php</strong>.</p>
+<p>Chèn đoạn code mình gửi bên trên đó vào ngay sau <strong>&lt;div class=”page-inner”&gt;</strong> và ngay trên đoạn <strong>&lt;?php if(get_theme_mod(‘default_title’, 0)){ ?&gt;. </strong>Các bạn xem kỹ hình trên để copy – paste vào cho chuẩn nhé!</p>
+<p>Sau đó, các bạn copy đoạn CSS này bỏ vào phần tùy chọn CSS của theme nhé! <strong>Giao diện</strong> – <strong>Tùy chỉnh</strong> – <strong>Tùy chỉnh CSS</strong>:</p>
+<div id="crayon-5dcccbf717659111637424" class="crayon-syntax crayon-theme-classic crayon-font-monaco crayon-os-pc print-yes notranslate" data-settings=" minimize scroll-mouseover">
+<div class="crayon-plain-wrap"></div>
+<div class="crayon-main">
+<table class="crayon-table">
+<tbody>
+<tr class="crayon-row">
+<td class="crayon-nums " data-settings="show">
+<div class="crayon-nums-content">
+<div class="crayon-num" data-line="crayon-5dcccbf717659111637424-1">1</div>
+<div class="crayon-num crayon-striped-num" data-line="crayon-5dcccbf717659111637424-2">2</div>
+<div class="crayon-num" data-line="crayon-5dcccbf717659111637424-3">3</div>
+<div class="crayon-num crayon-striped-num" data-line="crayon-5dcccbf717659111637424-4">4</div>
+<div class="crayon-num" data-line="crayon-5dcccbf717659111637424-5">5</div>
+<div class="crayon-num crayon-striped-num" data-line="crayon-5dcccbf717659111637424-6">6</div>
+<div class="crayon-num" data-line="crayon-5dcccbf717659111637424-7">7</div>
+<div class="crayon-num crayon-striped-num" data-line="crayon-5dcccbf717659111637424-8">8</div>
+<div class="crayon-num" data-line="crayon-5dcccbf717659111637424-9">9</div>
+<div class="crayon-num crayon-striped-num" data-line="crayon-5dcccbf717659111637424-10">10</div>
+<div class="crayon-num" data-line="crayon-5dcccbf717659111637424-11">11</div>
+<div class="crayon-num crayon-striped-num" data-line="crayon-5dcccbf717659111637424-12">12</div>
+<div class="crayon-num" data-line="crayon-5dcccbf717659111637424-13">13</div>
+<div class="crayon-num crayon-striped-num" data-line="crayon-5dcccbf717659111637424-14">14</div>
+<div class="crayon-num" data-line="crayon-5dcccbf717659111637424-15">15</div>
+<div class="crayon-num crayon-striped-num" data-line="crayon-5dcccbf717659111637424-16">16</div>
+<div class="crayon-num" data-line="crayon-5dcccbf717659111637424-17">17</div>
+<div class="crayon-num crayon-striped-num" data-line="crayon-5dcccbf717659111637424-18">18</div>
+</div>
+</td>
+<td class="crayon-code">
+<div class="crayon-pre">
+<div id="crayon-5dcccbf717659111637424-1" class="crayon-line"><span class="crayon-sy">.</span><span class="crayon-i">breadcrumbs</span> <span class="crayon-sy">{</span></div>
+<div id="crayon-5dcccbf717659111637424-2" class="crayon-line crayon-striped-line"><span class="crayon-h">    </span><span class="crayon-v">text</span><span class="crayon-o">&#8211;</span><span class="crayon-v">transform</span><span class="crayon-o">:</span> <span class="crayon-v">uppercase</span><span class="crayon-sy">;</span></div>
+<div id="crayon-5dcccbf717659111637424-3" class="crayon-line"><span class="crayon-h">    </span><span class="crayon-v">color</span><span class="crayon-o">:</span> <span class="crayon-p">#222;</span></div>
+<div id="crayon-5dcccbf717659111637424-4" class="crayon-line crayon-striped-line"><span class="crayon-h">    </span><span class="crayon-v">font</span><span class="crayon-o">&#8211;</span><span class="crayon-v">weight</span><span class="crayon-o">:</span> <span class="crayon-cn">700</span><span class="crayon-sy">;</span></div>
+<div id="crayon-5dcccbf717659111637424-5" class="crayon-line"><span class="crayon-h">    </span><span class="crayon-v">letter</span><span class="crayon-o">&#8211;</span><span class="crayon-v">spacing</span><span class="crayon-o">:</span> <span class="crayon-cn">0</span><span class="crayon-sy">;</span></div>
+<div id="crayon-5dcccbf717659111637424-6" class="crayon-line crayon-striped-line"><span class="crayon-h">    </span><span class="crayon-v">padding</span><span class="crayon-o">:</span> <span class="crayon-cn">0</span><span class="crayon-sy">;</span></div>
+<div id="crayon-5dcccbf717659111637424-7" class="crayon-line"><span class="crayon-sy">}</span></div>
+<div id="crayon-5dcccbf717659111637424-8" class="crayon-line crayon-striped-line"><span class="crayon-p">#breadcrumbs {</span></div>
+<div id="crayon-5dcccbf717659111637424-9" class="crayon-line"><span class="crayon-h">    </span><span class="crayon-v">margin</span><span class="crayon-o">&#8211;</span><span class="crayon-v">bottom</span><span class="crayon-o">:</span> <span class="crayon-cn">10px</span><span class="crayon-sy">;</span></div>
+<div id="crayon-5dcccbf717659111637424-10" class="crayon-line crayon-striped-line"><span class="crayon-h">    </span><span class="crayon-v">font</span><span class="crayon-o">&#8211;</span><span class="crayon-v">size</span><span class="crayon-o">:</span> <span class="crayon-cn">14px</span><span class="crayon-sy">;</span></div>
+<div id="crayon-5dcccbf717659111637424-11" class="crayon-line"><span class="crayon-h">    </span><span class="crayon-v">color</span><span class="crayon-o">:</span> <span class="crayon-v">gray</span><span class="crayon-sy">;</span></div>
+<div id="crayon-5dcccbf717659111637424-12" class="crayon-line crayon-striped-line"><span class="crayon-h">    </span><span class="crayon-v">text</span><span class="crayon-o">&#8211;</span><span class="crayon-v">transform</span><span class="crayon-o">:</span> <span class="crayon-v">none</span><span class="crayon-sy">;</span></div>
+<div id="crayon-5dcccbf717659111637424-13" class="crayon-line"><span class="crayon-sy">}</span></div>
+<div id="crayon-5dcccbf717659111637424-14" class="crayon-line crayon-striped-line"><span class="crayon-sy">.</span><span class="crayon-i">breadcrumbs</span> <span class="crayon-e">a</span> <span class="crayon-sy">{</span></div>
+<div id="crayon-5dcccbf717659111637424-15" class="crayon-line"><span class="crayon-h">    </span><span class="crayon-v">color</span><span class="crayon-o">:</span> <span class="crayon-p">#fba646;</span></div>
+<div id="crayon-5dcccbf717659111637424-16" class="crayon-line crayon-striped-line"><span class="crayon-h">    </span><span class="crayon-v">margin</span><span class="crayon-o">&#8211;</span><span class="crayon-v">left</span><span class="crayon-o">:</span><span class="crayon-cn">0</span> <span class="crayon-o">!</span><span class="crayon-v">important</span><span class="crayon-sy">;</span></div>
+<div id="crayon-5dcccbf717659111637424-17" class="crayon-line"><span class="crayon-h">    </span><span class="crayon-v">font</span><span class="crayon-o">&#8211;</span><span class="crayon-v">weight</span><span class="crayon-o">:</span> <span class="crayon-cn">400</span><span class="crayon-sy">;</span></div>
+<div id="crayon-5dcccbf717659111637424-18" class="crayon-line crayon-striped-line"><span class="crayon-sy">}</span></div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<p>Sau khi dán đoạn code vào đúng vị trí và update CSS cho nó, các bạn lưu lại để nó có hiệu lực nhé, và đây là kết quả.</p>
+<h4>Chèn Breadcrumbs vào bài viết</h4>
+<p>Chèn breadcrumbs vào bài viết cũng gần tương đương như chèn vào trang đơn.</p>
+<p>Các bạn truy cập thư mục sau trong File manager: <strong>wp-content</strong> &gt; <strong>themes</strong> &gt;<strong> flatsome</strong> &gt; <strong>template-parts</strong> &gt; <strong>posts.</strong></p>
+<p>Đối với theme Flatsome, bài viết có thể tùy chỉnh sidebar trái hoặc sidebar phải, tương ứng với 2 file <strong>layout-left-sidebar.php</strong> và <strong>layout-right-sidebar.php. </strong>Các bạn có thể chèn code hiển thị Breadcrumbs vào 2 file đó.</p>
+<p>Tuy nhiên, trong theme Flatsome có một file <strong>entry-header.php</strong> sẽ áp dụng phần đầu trang cho cả 2 layout trên. Do đó, chúng ta sẽ chèn code hiển thị Breadcrumbs tại file này. Bạn cần truy cập đường dẫn sau: <strong>wp-content &gt; themes &gt; flatsome &gt; template-parts &gt; posts &gt; partials &gt; entry-header.php</strong></p>
+<p>Bạn copy đoạn code hiển thị Breadcrumbs bên trên rồi chèn vào ngay sau <strong>&lt;header class=”entry-header”&gt;</strong> như hình trên nhé! Sau đó, lưu lại và hưởng thành quả:</p>
+<h3>Lời kết</h3>
+<p>Các bạn thực hiện tuần tự theo các bước mình hướng dẫn nhé! Chúc các bạn làm tốt và có những trải nghiệm thú vị tại website Ninh Bình Web</p>
+<p>Cám ơn các bạn đã quan tâm theo dõi và ủng hộ blog GiuseArt trong suốt thời gian qua. Mọi nhu cầu thiết kế – in ấn sáng tạo và thiết kế website, vui lòng liên hệ trực tiếp Admin để được tư vấn và hỗ trợ:</p>
+<p><strong>+ Liên hệ:</strong> Lê Văn Thiện<br />
+<strong>+ Phone:</strong> 0972939830<br />
+<strong>+ Email:</strong> giuselethien@gmail.com<br />
+<strong>+ Website:</strong> www.giuseart.com<br />
+<strong>+ Flickr:</strong><a href="http://www.flickr.com/photos/77493237@N07/albums"> www.flickr.com/photos/77493237@N07/albums</a><br />
+<strong>+ Behance:</strong> <a href="https://www.behance.net/giuselethien">https://www.behance.net/giuselethien</a><br />
+<strong>+ Pintesest:</strong><a href="https://www.pinterest.com/giuselethien/pins/"> https://www.pinterest.com/giuselethien/pins/</a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Thêm hiệu ứng ánh sáng khi hover vào ảnh bài viết trong theme Flatsome</title>
+		<link>https://chophanmem.webtudong8giay.com/them-hieu-ung-anh-sang-khi-hover-vao-anh-bai-viet-trong-theme-flatsome/</link>
+		
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<pubDate>Thu, 14 Nov 2019 03:37:09 +0000</pubDate>
+				<category><![CDATA[Blogs]]></category>
+		<category><![CDATA[Tùy chỉnh CSS]]></category>
+		<guid isPermaLink="false">http://shopnet.muathemewordpress.net/?p=103</guid>
+
+					<description><![CDATA[Chào các bạn, nếu ai để ý có thể thấy các mẫu website gần đây của Ninh Bình Web mình hay sử dụng hiệu ứng ánh sáng trượt lấp lánh khi rê chuột vào ảnh bài viết. Có một số bạn thích hiệu ứng CSS đó và muốn mình chỉ cách làm. Do đó, hôm ...]]></description>
+										<content:encoded><![CDATA[<h2>Chào các bạn, nếu ai để ý có thể thấy các mẫu website gần đây của Ninh Bình Web mình hay sử dụng hiệu ứng ánh sáng trượt lấp lánh khi rê chuột vào ảnh bài viết. Có một số bạn thích hiệu ứng CSS đó và muốn mình chỉ cách làm. Do đó, hôm nay mình viết hướng dẫn cho các bạn khác có thể làm theo luôn!</h2>
+<p><strong>Demo:</strong> <a href="http://bds7.ninhbinhweb.info/" target="blank" rel="noopener noreferrer">http://bds7.ninhbinhweb.info</a></p>
+<h3>Điều kiện &amp; yêu cầu</h3>
+<p>Bài viết này mình chỉ cho các bạn mới học làm website WordPress, với mục đích làm sao chỉ cần copy – paste là có thể làm được (đôi khi không cần hiểu). Do đó, lưu ý giúp mình một số điều sau!</p>
+<ul>
+<li>Nền tảng: WordPress (khuyến khích WP 5 trở lên)</li>
+<li>Theme Flatsome</li>
+</ul>
+<p>Demo mình làm website sử dụng theme Flatsome nên bạn nào đang có theme Flatsome thì cứ an tâm hoàn toàn, chỉ cần copy – paste theo đúng như hướng dẫn của mình là OK. Những bạn khác không sử dụng theme Flatsome thì có thể liên hệ mình support riêng nhé!</p>
+<h3>Tạo hiệu ứng ánh sáng lấp lánh khi hover vào ảnh bài viết</h3>
+<h4><strong>Bước 1: Copy CSS</strong></h4>
+<p>Các bạn copy toàn bộ đoạn code CSS dưới đây nhé! Đừng thiếu gì kẻo không thành công!</p>
+<p>Đoạn CSS dưới sẽ làm việc với class <strong>.post-item .box-image. </strong>Do đó, bất cứ bài viết nào trong website có ảnh đại diện nó đều áp dụng hiệu ứng này các bạn nhé!</p>
+<div id="crayon-5dcccbca4ba41072601803" class="crayon-syntax crayon-theme-classic crayon-font-monaco crayon-os-pc print-yes notranslate" data-settings=" minimize scroll-mouseover">
+<div class="crayon-plain-wrap"></div>
+<div class="crayon-main">
+<table class="crayon-table">
+<tbody>
+<tr class="crayon-row">
+<td class="crayon-nums " data-settings="show">
+<div class="crayon-nums-content">
+<div class="crayon-num" data-line="crayon-5dcccbca4ba41072601803-1">1</div>
+<div class="crayon-num crayon-striped-num" data-line="crayon-5dcccbca4ba41072601803-2">2</div>
+<div class="crayon-num" data-line="crayon-5dcccbca4ba41072601803-3">3</div>
+<div class="crayon-num crayon-striped-num" data-line="crayon-5dcccbca4ba41072601803-4">4</div>
+<div class="crayon-num" data-line="crayon-5dcccbca4ba41072601803-5">5</div>
+<div class="crayon-num crayon-striped-num" data-line="crayon-5dcccbca4ba41072601803-6">6</div>
+<div class="crayon-num" data-line="crayon-5dcccbca4ba41072601803-7">7</div>
+<div class="crayon-num crayon-striped-num" data-line="crayon-5dcccbca4ba41072601803-8">8</div>
+<div class="crayon-num" data-line="crayon-5dcccbca4ba41072601803-9">9</div>
+<div class="crayon-num crayon-striped-num" data-line="crayon-5dcccbca4ba41072601803-10">10</div>
+<div class="crayon-num" data-line="crayon-5dcccbca4ba41072601803-11">11</div>
+<div class="crayon-num crayon-striped-num" data-line="crayon-5dcccbca4ba41072601803-12">12</div>
+<div class="crayon-num" data-line="crayon-5dcccbca4ba41072601803-13">13</div>
+<div class="crayon-num crayon-striped-num" data-line="crayon-5dcccbca4ba41072601803-14">14</div>
+<div class="crayon-num" data-line="crayon-5dcccbca4ba41072601803-15">15</div>
+<div class="crayon-num crayon-striped-num" data-line="crayon-5dcccbca4ba41072601803-16">16</div>
+<div class="crayon-num" data-line="crayon-5dcccbca4ba41072601803-17">17</div>
+<div class="crayon-num crayon-striped-num" data-line="crayon-5dcccbca4ba41072601803-18">18</div>
+<div class="crayon-num" data-line="crayon-5dcccbca4ba41072601803-19">19</div>
+<div class="crayon-num crayon-striped-num" data-line="crayon-5dcccbca4ba41072601803-20">20</div>
+<div class="crayon-num" data-line="crayon-5dcccbca4ba41072601803-21">21</div>
+<div class="crayon-num crayon-striped-num" data-line="crayon-5dcccbca4ba41072601803-22">22</div>
+</div>
+</td>
+<td class="crayon-code">
+<div class="crayon-pre">
+<div id="crayon-5dcccbca4ba41072601803-1" class="crayon-line"><span class="crayon-sy">.</span><span class="crayon-v">post</span><span class="crayon-o">&#8211;</span><span class="crayon-i">item</span> <span class="crayon-sy">.</span><span class="crayon-v">box</span><span class="crayon-o">&#8211;</span><span class="crayon-v">image</span><span class="crayon-o">:</span><span class="crayon-v">hover</span><span class="crayon-o">::</span><span class="crayon-e">before</span><span class="crayon-sy">{</span></div>
+<div id="crayon-5dcccbca4ba41072601803-2" class="crayon-line crayon-striped-line"><span class="crayon-o">&#8211;</span><span class="crayon-v">webkit</span><span class="crayon-o">&#8211;</span><span class="crayon-v">animation</span><span class="crayon-o">:</span><span class="crayon-i">shine</span> <span class="crayon-sy">.</span><span class="crayon-cn">75s</span><span class="crayon-sy">;</span></div>
+<div id="crayon-5dcccbca4ba41072601803-3" class="crayon-line"><span class="crayon-v">animation</span><span class="crayon-o">:</span><span class="crayon-i">shine</span> <span class="crayon-sy">.</span><span class="crayon-cn">75s</span><span class="crayon-sy">}</span></div>
+<div id="crayon-5dcccbca4ba41072601803-4" class="crayon-line crayon-striped-line"><span class="crayon-sy">@</span><span class="crayon-o">&#8211;</span><span class="crayon-e">webkit</span><span class="crayon-o">&#8211;</span><span class="crayon-e">keyframes</span> <span class="crayon-e">shine</span><span class="crayon-sy">{</span></div>
+<div id="crayon-5dcccbca4ba41072601803-5" class="crayon-line"><span class="crayon-cn">100</span><span class="crayon-o">%</span><span class="crayon-sy">{</span><span class="crayon-v">left</span><span class="crayon-o">:</span><span class="crayon-cn">125</span><span class="crayon-o">%</span><span class="crayon-sy">}</span></div>
+<div id="crayon-5dcccbca4ba41072601803-6" class="crayon-line crayon-striped-line"><span class="crayon-sy">}</span></div>
+<div id="crayon-5dcccbca4ba41072601803-7" class="crayon-line"><span class="crayon-sy">@</span><span class="crayon-e">keyframes</span> <span class="crayon-e">shine</span><span class="crayon-sy">{</span></div>
+<div id="crayon-5dcccbca4ba41072601803-8" class="crayon-line crayon-striped-line"><span class="crayon-cn">100</span><span class="crayon-o">%</span><span class="crayon-sy">{</span><span class="crayon-v">left</span><span class="crayon-o">:</span><span class="crayon-cn">125</span><span class="crayon-o">%</span><span class="crayon-sy">}</span></div>
+<div id="crayon-5dcccbca4ba41072601803-9" class="crayon-line"><span class="crayon-sy">}</span></div>
+<div id="crayon-5dcccbca4ba41072601803-10" class="crayon-line crayon-striped-line"><span class="crayon-sy">.</span><span class="crayon-v">post</span><span class="crayon-o">&#8211;</span><span class="crayon-i">item</span> <span class="crayon-sy">.</span><span class="crayon-v">box</span><span class="crayon-o">&#8211;</span><span class="crayon-v">image</span><span class="crayon-o">::</span><span class="crayon-e">before</span><span class="crayon-sy">{</span></div>
+<div id="crayon-5dcccbca4ba41072601803-11" class="crayon-line"><span class="crayon-v">position</span><span class="crayon-o">:</span><span class="crayon-v">absolute</span><span class="crayon-sy">;</span></div>
+<div id="crayon-5dcccbca4ba41072601803-12" class="crayon-line crayon-striped-line"><span class="crayon-v">top</span><span class="crayon-o">:</span><span class="crayon-cn">0</span><span class="crayon-sy">;</span></div>
+<div id="crayon-5dcccbca4ba41072601803-13" class="crayon-line"><span class="crayon-v">left</span><span class="crayon-o">:</span><span class="crayon-o">&#8211;</span><span class="crayon-cn">75</span><span class="crayon-o">%</span><span class="crayon-sy">;</span></div>
+<div id="crayon-5dcccbca4ba41072601803-14" class="crayon-line crayon-striped-line"><span class="crayon-v">z</span><span class="crayon-o">&#8211;</span><span class="crayon-v">index</span><span class="crayon-o">:</span><span class="crayon-cn">2</span><span class="crayon-sy">;</span></div>
+<div id="crayon-5dcccbca4ba41072601803-15" class="crayon-line"><span class="crayon-v">display</span><span class="crayon-o">:</span><span class="crayon-v">block</span><span class="crayon-sy">;</span></div>
+<div id="crayon-5dcccbca4ba41072601803-16" class="crayon-line crayon-striped-line"><span class="crayon-v">content</span><span class="crayon-o">:</span><span class="crayon-s">&#8221;</span><span class="crayon-sy">;</span></div>
+<div id="crayon-5dcccbca4ba41072601803-17" class="crayon-line"><span class="crayon-v">width</span><span class="crayon-o">:</span><span class="crayon-cn">50</span><span class="crayon-o">%</span><span class="crayon-sy">;</span></div>
+<div id="crayon-5dcccbca4ba41072601803-18" class="crayon-line crayon-striped-line"><span class="crayon-v">height</span><span class="crayon-o">:</span><span class="crayon-cn">100</span><span class="crayon-o">%</span><span class="crayon-sy">;</span></div>
+<div id="crayon-5dcccbca4ba41072601803-19" class="crayon-line"><span class="crayon-v">background</span><span class="crayon-o">:</span><span class="crayon-o">&#8211;</span><span class="crayon-v">webkit</span><span class="crayon-o">&#8211;</span><span class="crayon-v">linear</span><span class="crayon-o">&#8211;</span><span class="crayon-e">gradient</span><span class="crayon-sy">(</span><span class="crayon-v">left</span><span class="crayon-sy">,</span><span class="crayon-e">rgba</span><span class="crayon-sy">(</span><span class="crayon-cn">255</span><span class="crayon-sy">,</span><span class="crayon-cn">255</span><span class="crayon-sy">,</span><span class="crayon-cn">255</span><span class="crayon-sy">,</span><span class="crayon-cn">0</span><span class="crayon-sy">)</span> <span class="crayon-cn">0</span><span class="crayon-sy">,</span><span class="crayon-e">rgba</span><span class="crayon-sy">(</span><span class="crayon-cn">255</span><span class="crayon-sy">,</span><span class="crayon-cn">255</span><span class="crayon-sy">,</span><span class="crayon-cn">255</span><span class="crayon-sy">,</span><span class="crayon-sy">.</span><span class="crayon-cn">3</span><span class="crayon-sy">)</span> <span class="crayon-cn">100</span><span class="crayon-o">%</span><span class="crayon-sy">)</span><span class="crayon-sy">;</span></div>
+<div id="crayon-5dcccbca4ba41072601803-20" class="crayon-line crayon-striped-line"><span class="crayon-v">background</span><span class="crayon-o">:</span><span class="crayon-v">linear</span><span class="crayon-o">&#8211;</span><span class="crayon-e">gradient</span><span class="crayon-sy">(</span><span class="crayon-st">to</span> <span class="crayon-v">right</span><span class="crayon-sy">,</span><span class="crayon-e">rgba</span><span class="crayon-sy">(</span><span class="crayon-cn">255</span><span class="crayon-sy">,</span><span class="crayon-cn">255</span><span class="crayon-sy">,</span><span class="crayon-cn">255</span><span class="crayon-sy">,</span><span class="crayon-cn">0</span><span class="crayon-sy">)</span> <span class="crayon-cn">0</span><span class="crayon-sy">,</span><span class="crayon-e">rgba</span><span class="crayon-sy">(</span><span class="crayon-cn">255</span><span class="crayon-sy">,</span><span class="crayon-cn">255</span><span class="crayon-sy">,</span><span class="crayon-cn">255</span><span class="crayon-sy">,</span><span class="crayon-sy">.</span><span class="crayon-cn">3</span><span class="crayon-sy">)</span> <span class="crayon-cn">100</span><span class="crayon-o">%</span><span class="crayon-sy">)</span><span class="crayon-sy">;</span></div>
+<div id="crayon-5dcccbca4ba41072601803-21" class="crayon-line"><span class="crayon-o">&#8211;</span><span class="crayon-v">webkit</span><span class="crayon-o">&#8211;</span><span class="crayon-v">transform</span><span class="crayon-o">:</span><span class="crayon-e">skewX</span><span class="crayon-sy">(</span><span class="crayon-o">&#8211;</span><span class="crayon-cn">25deg</span><span class="crayon-sy">)</span><span class="crayon-sy">;</span><span class="crayon-v">transform</span><span class="crayon-o">:</span><span class="crayon-e">skewX</span><span class="crayon-sy">(</span><span class="crayon-o">&#8211;</span><span class="crayon-cn">25deg</span><span class="crayon-sy">)</span></div>
+<div id="crayon-5dcccbca4ba41072601803-22" class="crayon-line crayon-striped-line"><span class="crayon-sy">}</span></div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<h4><strong>Bước 2: Paste CSS</strong></h4>
+<p>Các bạn vào <strong>Giao diện</strong> – <strong>Tùy biến</strong> – <strong>Style</strong> – <strong>Custom CSS.</strong> Paste toàn bộ đoạn CSS ở trên vào nhé!</p>
+<h4><strong>Bước 3: Lưu lại và hưởng thành quả</strong></h4>
+<p>Các bạn Save lại thao tác và ra trang chủ hoặc trang lưu trữ bài viết để xem sự thay đổi nhé!</p>
+<h3>Lời kết</h3>
+<p>Cám ơn các bạn đã quan tâm theo dõi và ủng hộ Ninh Bình Web. Chúc các bạn sử dụng đoạn code CSS trên hiệu quả nhé! Có thắc mắc hoặc lỗi chỗ nào cũng vui lòng comment cho mình biết nữa</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Thêm hiệu ứng ánh sáng khi hover ảnh sản phẩm Woocommerce bằng CSS</title>
+		<link>https://chophanmem.webtudong8giay.com/them-hieu-ung-anh-sang-khi-hover-anh-san-pham-woocommerce-bang-css/</link>
+		
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<pubDate>Thu, 14 Nov 2019 03:36:39 +0000</pubDate>
+				<category><![CDATA[Blogs]]></category>
+		<category><![CDATA[Tùy chỉnh CSS]]></category>
+		<guid isPermaLink="false">http://shopnet.muathemewordpress.net/?p=100</guid>
+
+					<description><![CDATA[Chào các bạn, bài viết trước mình đã hướng dẫn các bạn thêm hiệu ứng ánh sáng trượt khi hover vào ảnh bài viết trong theme Flatsome rồi phải không? Hôm nay mình tiếp tục hướng dẫn các bạn thêm hiệu ứng ánh sáng đẹp khi hover ảnh sản phẩm Woocommerce nhé! Demo: http://dienmay3.ninhbinhweb.info, http://bds8.ninhbinhweb.info Điều kiện &#38; yêu ...]]></description>
+										<content:encoded><![CDATA[<p>Chào các bạn, bài viết trước mình đã hướng dẫn các bạn thêm hiệu ứng ánh sáng trượt khi hover vào ảnh bài viết trong theme Flatsome rồi phải không? Hôm nay mình tiếp tục hướng dẫn các bạn thêm hiệu ứng ánh sáng đẹp khi <strong>hover ảnh sản phẩm Woocommerce</strong> nhé!</p>
+<p><strong>Demo: <a href="http://dienmay3.ninhbinhweb.info/" target="blank" rel="noopener noreferrer">http://dienmay3.ninhbinhweb.info</a>,<a href="http://bds8.ninhbinhweb.info/" target="blank" rel="noopener noreferrer"> http://bds8.ninhbinhweb.info</a></strong></p>
+<h3>Điều kiện &amp; yêu cầu</h3>
+<p>Bài viết hướng dẫn trên thực tế trong quá trình làm website của mình. Kiến thức có thể sẽ qúy báu với nhiều người, những cũng có thể không lạ lẫm gì với một số bạn. Do đó, các cao thủ xem qua có gì sai sót vui lòng chỉ giáo thêm cho mình nhé!</p>
+<p>Trang demo để thực hiện đoạn code hướng dẫn mình có thông số như sau:</p>
+<ul>
+<li><strong>Nền tảng:</strong> WordPress 5.1</li>
+<li><strong>Theme:</strong> Flatsome</li>
+<li><strong>Plugin sử dụng:</strong> Woocommerce</li>
+</ul>
+<p>Do đó, nếu bạn cũng đang có website đáp ứng đầy đủ thông tin như mình vừa liệt kê thì cứ an tâm copy – paste theo hướng dẫn là sẽ thành công nhé!</p>
+<p>Các bạn nào không làm được hoặc gặp lỗi, vui lòng comment để mình tìm hướng xử lí cùng nha!</p>
+<h3>Tạo hiệu ứng ánh sáng lấp lánh khi hover vào ảnh sản phẩm Woocommerce</h3>
+<h4><strong>Bước 1: Copy CSS</strong></h4>
+<p>Các bạn copy toàn bộ đoạn code CSS dưới đây nhé! Đừng thiếu gì kẻo không thành công!</p>
+<p>Đoạn CSS dưới sẽ làm việc với class <strong>.product-small .box-image. </strong>Do đó, bất cứ sản phẩm Woocommerce nào trong website có ảnh đại diện nó đều áp dụng hiệu ứng này các bạn nhé!</p>
+<div id="crayon-5dcccb9b45f30365217433" class="crayon-syntax crayon-theme-classic crayon-font-monaco crayon-os-pc print-yes notranslate" data-settings=" minimize scroll-mouseover">
+<div class="crayon-main">
+<table class="crayon-table">
+<tbody>
+<tr class="crayon-row">
+<td class="crayon-nums " data-settings="show">
+<div class="crayon-nums-content">
+<div class="crayon-num" data-line="crayon-5dcccb9b45f30365217433-1">1</div>
+<div class="crayon-num crayon-striped-num" data-line="crayon-5dcccb9b45f30365217433-2">2</div>
+<div class="crayon-num" data-line="crayon-5dcccb9b45f30365217433-3">3</div>
+<div class="crayon-num crayon-striped-num" data-line="crayon-5dcccb9b45f30365217433-4">4</div>
+<div class="crayon-num" data-line="crayon-5dcccb9b45f30365217433-5">5</div>
+<div class="crayon-num crayon-striped-num" data-line="crayon-5dcccb9b45f30365217433-6">6</div>
+<div class="crayon-num" data-line="crayon-5dcccb9b45f30365217433-7">7</div>
+<div class="crayon-num crayon-striped-num" data-line="crayon-5dcccb9b45f30365217433-8">8</div>
+<div class="crayon-num" data-line="crayon-5dcccb9b45f30365217433-9">9</div>
+<div class="crayon-num crayon-striped-num" data-line="crayon-5dcccb9b45f30365217433-10">10</div>
+<div class="crayon-num" data-line="crayon-5dcccb9b45f30365217433-11">11</div>
+<div class="crayon-num crayon-striped-num" data-line="crayon-5dcccb9b45f30365217433-12">12</div>
+<div class="crayon-num" data-line="crayon-5dcccb9b45f30365217433-13">13</div>
+<div class="crayon-num crayon-striped-num" data-line="crayon-5dcccb9b45f30365217433-14">14</div>
+<div class="crayon-num" data-line="crayon-5dcccb9b45f30365217433-15">15</div>
+<div class="crayon-num crayon-striped-num" data-line="crayon-5dcccb9b45f30365217433-16">16</div>
+<div class="crayon-num" data-line="crayon-5dcccb9b45f30365217433-17">17</div>
+<div class="crayon-num crayon-striped-num" data-line="crayon-5dcccb9b45f30365217433-18">18</div>
+<div class="crayon-num" data-line="crayon-5dcccb9b45f30365217433-19">19</div>
+<div class="crayon-num crayon-striped-num" data-line="crayon-5dcccb9b45f30365217433-20">20</div>
+<div class="crayon-num" data-line="crayon-5dcccb9b45f30365217433-21">21</div>
+<div class="crayon-num crayon-striped-num" data-line="crayon-5dcccb9b45f30365217433-22">22</div>
+</div>
+</td>
+<td class="crayon-code">
+<div class="crayon-pre">
+<div id="crayon-5dcccb9b45f30365217433-1" class="crayon-line"><span class="crayon-sy">.</span><span class="crayon-v">product</span><span class="crayon-o">&#8211;</span><span class="crayon-i">small</span> <span class="crayon-sy">.</span><span class="crayon-v">box</span><span class="crayon-o">&#8211;</span><span class="crayon-v">image</span><span class="crayon-o">:</span><span class="crayon-v">hover</span><span class="crayon-o">::</span><span class="crayon-e">before</span><span class="crayon-sy">{</span></div>
+<div id="crayon-5dcccb9b45f30365217433-2" class="crayon-line crayon-striped-line"><span class="crayon-o">&#8211;</span><span class="crayon-v">webkit</span><span class="crayon-o">&#8211;</span><span class="crayon-v">animation</span><span class="crayon-o">:</span><span class="crayon-i">shine</span> <span class="crayon-sy">.</span><span class="crayon-cn">75s</span><span class="crayon-sy">;</span><span class="crayon-v">animation</span><span class="crayon-o">:</span><span class="crayon-i">shine</span> <span class="crayon-sy">.</span><span class="crayon-cn">75s</span></div>
+<div id="crayon-5dcccb9b45f30365217433-3" class="crayon-line"><span class="crayon-sy">}</span></div>
+<div id="crayon-5dcccb9b45f30365217433-4" class="crayon-line crayon-striped-line"><span class="crayon-sy">@</span><span class="crayon-o">&#8211;</span><span class="crayon-e">webkit</span><span class="crayon-o">&#8211;</span><span class="crayon-e">keyframes</span> <span class="crayon-e">shine</span><span class="crayon-sy">{</span></div>
+<div id="crayon-5dcccb9b45f30365217433-5" class="crayon-line"><span class="crayon-cn">100</span><span class="crayon-o">%</span><span class="crayon-sy">{</span><span class="crayon-v">left</span><span class="crayon-o">:</span><span class="crayon-cn">125</span><span class="crayon-o">%</span><span class="crayon-sy">}</span></div>
+<div id="crayon-5dcccb9b45f30365217433-6" class="crayon-line crayon-striped-line"><span class="crayon-sy">}</span></div>
+<div id="crayon-5dcccb9b45f30365217433-7" class="crayon-line"><span class="crayon-sy">@</span><span class="crayon-e">keyframes</span> <span class="crayon-e">shine</span><span class="crayon-sy">{</span></div>
+<div id="crayon-5dcccb9b45f30365217433-8" class="crayon-line crayon-striped-line"><span class="crayon-cn">100</span><span class="crayon-o">%</span><span class="crayon-sy">{</span><span class="crayon-v">left</span><span class="crayon-o">:</span><span class="crayon-cn">125</span><span class="crayon-o">%</span><span class="crayon-sy">}</span></div>
+<div id="crayon-5dcccb9b45f30365217433-9" class="crayon-line"><span class="crayon-sy">}</span></div>
+<div id="crayon-5dcccb9b45f30365217433-10" class="crayon-line crayon-striped-line"><span class="crayon-sy">.</span><span class="crayon-v">product</span><span class="crayon-o">&#8211;</span><span class="crayon-i">small</span> <span class="crayon-sy">.</span><span class="crayon-v">box</span><span class="crayon-o">&#8211;</span><span class="crayon-v">image</span><span class="crayon-o">::</span><span class="crayon-e">before</span><span class="crayon-sy">{</span></div>
+<div id="crayon-5dcccb9b45f30365217433-11" class="crayon-line"><span class="crayon-v">position</span><span class="crayon-o">:</span><span class="crayon-v">absolute</span><span class="crayon-sy">;</span></div>
+<div id="crayon-5dcccb9b45f30365217433-12" class="crayon-line crayon-striped-line"><span class="crayon-v">top</span><span class="crayon-o">:</span><span class="crayon-cn">0</span><span class="crayon-sy">;</span></div>
+<div id="crayon-5dcccb9b45f30365217433-13" class="crayon-line"><span class="crayon-v">left</span><span class="crayon-o">:</span><span class="crayon-o">&#8211;</span><span class="crayon-cn">75</span><span class="crayon-o">%</span><span class="crayon-sy">;</span></div>
+<div id="crayon-5dcccb9b45f30365217433-14" class="crayon-line crayon-striped-line"><span class="crayon-v">z</span><span class="crayon-o">&#8211;</span><span class="crayon-v">index</span><span class="crayon-o">:</span><span class="crayon-cn">2</span><span class="crayon-sy">;</span></div>
+<div id="crayon-5dcccb9b45f30365217433-15" class="crayon-line"><span class="crayon-v">display</span><span class="crayon-o">:</span><span class="crayon-v">block</span><span class="crayon-sy">;</span></div>
+<div id="crayon-5dcccb9b45f30365217433-16" class="crayon-line crayon-striped-line"><span class="crayon-v">content</span><span class="crayon-o">:</span><span class="crayon-s">&#8221;</span><span class="crayon-sy">;</span></div>
+<div id="crayon-5dcccb9b45f30365217433-17" class="crayon-line"><span class="crayon-v">width</span><span class="crayon-o">:</span><span class="crayon-cn">50</span><span class="crayon-o">%</span><span class="crayon-sy">;</span></div>
+<div id="crayon-5dcccb9b45f30365217433-18" class="crayon-line crayon-striped-line"><span class="crayon-v">height</span><span class="crayon-o">:</span><span class="crayon-cn">100</span><span class="crayon-o">%</span><span class="crayon-sy">;</span></div>
+<div id="crayon-5dcccb9b45f30365217433-19" class="crayon-line"><span class="crayon-v">background</span><span class="crayon-o">:</span><span class="crayon-o">&#8211;</span><span class="crayon-v">webkit</span><span class="crayon-o">&#8211;</span><span class="crayon-v">linear</span><span class="crayon-o">&#8211;</span><span class="crayon-e">gradient</span><span class="crayon-sy">(</span><span class="crayon-v">left</span><span class="crayon-sy">,</span><span class="crayon-e">rgba</span><span class="crayon-sy">(</span><span class="crayon-cn">255</span><span class="crayon-sy">,</span><span class="crayon-cn">255</span><span class="crayon-sy">,</span><span class="crayon-cn">255</span><span class="crayon-sy">,</span><span class="crayon-cn">0</span><span class="crayon-sy">)</span> <span class="crayon-cn">0</span><span class="crayon-sy">,</span><span class="crayon-e">rgba</span><span class="crayon-sy">(</span><span class="crayon-cn">255</span><span class="crayon-sy">,</span><span class="crayon-cn">255</span><span class="crayon-sy">,</span><span class="crayon-cn">255</span><span class="crayon-sy">,</span><span class="crayon-sy">.</span><span class="crayon-cn">3</span><span class="crayon-sy">)</span> <span class="crayon-cn">100</span><span class="crayon-o">%</span><span class="crayon-sy">)</span><span class="crayon-sy">;</span></div>
+<div id="crayon-5dcccb9b45f30365217433-20" class="crayon-line crayon-striped-line"><span class="crayon-v">background</span><span class="crayon-o">:</span><span class="crayon-v">linear</span><span class="crayon-o">&#8211;</span><span class="crayon-e">gradient</span><span class="crayon-sy">(</span><span class="crayon-st">to</span> <span class="crayon-v">right</span><span class="crayon-sy">,</span><span class="crayon-e">rgba</span><span class="crayon-sy">(</span><span class="crayon-cn">255</span><span class="crayon-sy">,</span><span class="crayon-cn">255</span><span class="crayon-sy">,</span><span class="crayon-cn">255</span><span class="crayon-sy">,</span><span class="crayon-cn">0</span><span class="crayon-sy">)</span> <span class="crayon-cn">0</span><span class="crayon-sy">,</span><span class="crayon-e">rgba</span><span class="crayon-sy">(</span><span class="crayon-cn">255</span><span class="crayon-sy">,</span><span class="crayon-cn">255</span><span class="crayon-sy">,</span><span class="crayon-cn">255</span><span class="crayon-sy">,</span><span class="crayon-sy">.</span><span class="crayon-cn">3</span><span class="crayon-sy">)</span> <span class="crayon-cn">100</span><span class="crayon-o">%</span><span class="crayon-sy">)</span><span class="crayon-sy">;</span></div>
+<div id="crayon-5dcccb9b45f30365217433-21" class="crayon-line"><span class="crayon-o">&#8211;</span><span class="crayon-v">webkit</span><span class="crayon-o">&#8211;</span><span class="crayon-v">transform</span><span class="crayon-o">:</span><span class="crayon-e">skewX</span><span class="crayon-sy">(</span><span class="crayon-o">&#8211;</span><span class="crayon-cn">25deg</span><span class="crayon-sy">)</span><span class="crayon-sy">;</span><span class="crayon-v">transform</span><span class="crayon-o">:</span><span class="crayon-e">skewX</span><span class="crayon-sy">(</span><span class="crayon-o">&#8211;</span><span class="crayon-cn">25deg</span><span class="crayon-sy">)</span></div>
+<div id="crayon-5dcccb9b45f30365217433-22" class="crayon-line crayon-striped-line"><span class="crayon-sy">}</span></div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<h4><strong>Bước 2: Paste CSS</strong></h4>
+<p>Các bạn vào <strong>Giao diện</strong> – <strong>Tùy biến</strong> – <strong>Style</strong> – <strong>Custom CSS.</strong> Paste toàn bộ đoạn CSS ở trên vào nhé!</p>
+<h4><strong>Bước 3: Lưu lại và hưởng thành quả</strong></h4>
+<p>Các bạn Save lại thao tác và ra trang chủ hoặc trang lưu trữ bài viết để xem sự thay đổi nhé!</p>
+<h3>Lời kết</h3>
+<p>Cám ơn các bạn đã quan tâm theo dõi và ủng hộ GiuseArt. Chúc các bạn sử dụng đoạn code CSS trên hiệu quả nhé! Có thắc mắc hoặc lỗi chỗ nào cũng vui lòng comment cho mình biết nữa</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Cảnh giác web dính virut khi khôi phục xong không gỡ plugin Duplicator</title>
+		<link>https://chophanmem.webtudong8giay.com/canh-giac-web-dinh-virut-khi-khoi-phuc-xong-khong-go-plugin-duplicator/</link>
+		
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<pubDate>Thu, 14 Nov 2019 03:35:50 +0000</pubDate>
+				<category><![CDATA[Dịch vụ]]></category>
+		<category><![CDATA[Hướng dẫn cơ bản]]></category>
+		<category><![CDATA[bảo mật web]]></category>
+		<category><![CDATA[Duplicator]]></category>
+		<guid isPermaLink="false">http://shopnet.muathemewordpress.net/?p=97</guid>
+
+					<description><![CDATA[Anh em mua source code của Ninh Bình Web xin lưu ý: Hiện có một vài bạn mua source code của mình về làm web một thời gian bị virut và có phản hồi lại với mình! Qua kiểm tra thì mình có nhận định như sau, muốn thông tin cho những anh em khác ...]]></description>
+										<content:encoded><![CDATA[<p>Anh em mua source code của Ninh Bình Web xin lưu ý:</p>
+<p>Hiện có một vài bạn mua source code của mình về làm web một thời gian bị virut và có phản hồi lại với mình!</p>
+<p>Qua kiểm tra thì mình có nhận định như sau, muốn thông tin cho những anh em khác biết luôn:</p>
+<ul>
+<li>File backup<strong> duplicator</strong> các bác mua về khôi phục và không xoá các file thực thi của plugin <strong>duplicator</strong> cũng không gỡ plugin đó ra! -&gt; khả năng nhiễm vi rút lên tới 90% do lỗ hổng từ plugin <strong>duplicator</strong>.</li>
+<li><span class="text_exposed_show">Một số bạn cài plugin <strong>wp easy SMTP</strong> phiên bản cũ cũng bị nhiễm vi rút chuyển hướng hoặc index tiếng nước ngoài!</span></li>
+</ul>
+<p><strong>Khuyến cáo: bất kỳ bạn nào khôi phục web sử dụng plugin duplicator thì sau khi vào đc admin, vui lòng:</strong></p>
+<ol>
+<li><span class="text_exposed_show">Quản trị – duplicator – stored data – xoá 3 nút là các file thực thi của plugin duplicator (1. Clean…, 2. Delete…., 3. Remove….)</span></li>
+<li><span class="text_exposed_show">Gỡ plugin duplicator</span></li>
+<li><span class="text_exposed_show">Vào phpmyadmin xoá 2 row đc sinh ra bởi plugin duplicator (không nhớ tên cụ thể nhưng trong tên row có chứa duplicator…., nhìn phát ra ngay)</span></li>
+<li><span class="text_exposed_show">Tìm trong plugins xem có plugin wp easy SMTP, cập nhật phiên bản mới ngay!</span></li>
+</ol>
+<p><span class="text_exposed_show">Các bác mua source code bị virut inbox mình để được hướng dẫn xử lí nha!</span></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Code chèn Hotline và chat Facebook vào chân trang trên giao diện mobile cho website</title>
+		<link>https://chophanmem.webtudong8giay.com/chao-moi-nguoi/</link>
+		
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+		<pubDate>Tue, 12 Nov 2019 12:15:21 +0000</pubDate>
+				<category><![CDATA[Blogs]]></category>
+		<guid isPermaLink="false">http://shopnet.muathemewordpress.net/?p=1</guid>
+
+					<description><![CDATA[Có nhiều plugin có thể giúp bạn tạo nút chèn Hotline hoặc Chat Facebook ở chân trang trên website WordPress. Tuy nhiên, ai trong chúng ta cũng thường e ngại khi dùng plugin, vì nỗi lo nó có thể gây nặng nề hoặc xung đột với các thành phần khác của website. Mình có làm một vài mẫu web ...]]></description>
+										<content:encoded><![CDATA[
+<p>Có nhiều plugin có thể giúp bạn tạo nút <strong>chèn Hotline</strong> hoặc <strong>Chat Facebook</strong> ở chân trang trên website WordPress. Tuy nhiên, ai trong chúng ta cũng thường e ngại khi dùng plugin, vì nỗi lo nó có thể gây nặng nề hoặc xung đột với các thành phần khác của website.</p>
+<p><strong>Mình có làm một vài mẫu web và được khách hàng phản hồi khá tích cực về nút Hotline ở góc trái phía dưới trang cũng như 2 nút Hotline + Chat Facebook ở chân trang khi lướt web trên các thiết bị di động. Và hôm nay, mình sẽ hướng dẫn các bạn làm các nút bấm tương tự nhé!</strong></p>
+<figure id="attachment_4711" class="wp-caption aligncenter" aria-describedby="caption-attachment-4711"><img loading="lazy" class="size-full wp-image-4711 lazy-load-active" src="http://giuseart.com/wp-content/uploads/2017/11/Ch%C3%A8n-n%C3%BAt-Hotline-v%C3%A0-chat-Facebook-v%C3%A0o-website.jpg" alt="Chèn nút Hotline và chat Facebook vào website" width="800" height="400" data-src="http://giuseart.com/wp-content/uploads/2017/11/Chèn-nút-Hotline-và-chat-Facebook-vào-website.jpg" /></figure>
+<p>Mời xem demo tại đây: <a href="http://cake.ninhbinhweb.com/">http://cake.ninhbinhweb.com</a>, <a href="http://fashion2.ninhbinhweb.com/">http://fashion2.ninhbinhweb.com</a></p>
+<p><strong>Lưu ý: nhớ mở cả giao diện mobile để thấy rõ 2 nút ở chân trang nhé!</strong></p>
+<h3>Tạo nút Hotline cho giao diện Desktop</h3>
+<p>Thực chất là mình tạo một đoạn HTML để tạo nút Hotline và ném vô file footer.php của giao diện, đoạn HTML đó đã được nhúng sẵn code CSS để định dạng hình dáng và màu sắc theo ý mình muốn.</p>
+<ul>
+<li>Cách tìm file footer.php<strong>:</strong> vào<strong> Quản trị &gt; Giao diện &gt; Sửa &gt; Footer.php</strong></li>
+<li>Đối với theme Flatsome có sử dụng Child theme: <strong>Quản trị &gt; Giao diện &gt; Sửa &gt; Chọn giao diện &gt; Flatsome &gt; Footer.php</strong>.</li>
+</ul>
+<p>Ta copy đoạn code HTML sau và dán vào phía dưới thẻ đóng &lt;/body&gt; trong file footer.php của giao diện.</p>
+<div id="crayon-5dce7e76858d5327459626" class="crayon-syntax crayon-theme-classic crayon-font-monaco crayon-os-pc print-yes notranslate" data-settings=" minimize scroll-mouseover">
+<div class="crayon-plain-wrap"> </div>
+<div class="crayon-main">
+<table class="crayon-table">
+<tbody>
+<tr class="crayon-row">
+<td class="crayon-nums " data-settings="show">
+<div class="crayon-nums-content">
+<div class="crayon-num" data-line="crayon-5dce7e76858d5327459626-1">1</div>
+<div class="crayon-num crayon-striped-num" data-line="crayon-5dce7e76858d5327459626-2">2</div>
+<div class="crayon-num" data-line="crayon-5dce7e76858d5327459626-3">3</div>
+<div class="crayon-num crayon-striped-num" data-line="crayon-5dce7e76858d5327459626-4">4</div>
+</div>
+</td>
+<td class="crayon-code">
+<div class="crayon-pre">
+<div id="crayon-5dce7e76858d5327459626-1" class="crayon-line"><span class="crayon-o">&lt;</span><span class="crayon-i">a</span> <span class="crayon-v">href</span><span class="crayon-o">=</span><span class="crayon-s">&#8220;tel:+84972939830&#8221;</span><span class="crayon-o">&gt;</span><span class="crayon-o">&lt;</span><span class="crayon-e">div </span><span class="crayon-t">class</span><span class="crayon-o">=</span><span class="crayon-s">&#8220;hotline&#8221;</span><span class="crayon-o">&gt;</span></div>
+<div id="crayon-5dce7e76858d5327459626-2" class="crayon-line crayon-striped-line"><span class="crayon-o">&lt;</span><span class="crayon-e">span </span><span class="crayon-t">class</span><span class="crayon-o">=</span><span class="crayon-s">&#8220;before-hotline&#8221;</span><span class="crayon-o">&gt;</span><span class="crayon-v">Hotline</span><span class="crayon-o">:</span><span class="crayon-o">&lt;</span><span class="crayon-o">/</span><span class="crayon-v">span</span><span class="crayon-o">&gt;</span></div>
+<div id="crayon-5dce7e76858d5327459626-3" class="crayon-line"><span class="crayon-o">&lt;</span><span class="crayon-e">span </span><span class="crayon-t">class</span><span class="crayon-o">=</span><span class="crayon-s">&#8220;hotline-number&#8221;</span><span class="crayon-o">&gt;</span><span class="crayon-cn">0972.939.830</span><span class="crayon-o">&lt;</span><span class="crayon-o">/</span><span class="crayon-v">span</span><span class="crayon-o">&gt;</span></div>
+<div id="crayon-5dce7e76858d5327459626-4" class="crayon-line crayon-striped-line"><span class="crayon-o">&lt;</span><span class="crayon-o">/</span><span class="crayon-v">div</span><span class="crayon-o">&gt;</span><span class="crayon-o">&lt;</span><span class="crayon-o">/</span><span class="crayon-v">a</span><span class="crayon-o">&gt;</span></div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<p>và ta có kết quả như sau:</p>
+<figure id="attachment_4717" class="wp-caption aligncenter" aria-describedby="caption-attachment-4717"><img loading="lazy" class="size-full wp-image-4717 lazy-load-active" src="http://giuseart.com/wp-content/uploads/2017/11/T%E1%BA%A1o-n%C3%BAt-Hotline-cho-website-wordpress.jpg" alt="Tạo nút Hotline cho website wordpress" width="398" height="150" data-src="http://giuseart.com/wp-content/uploads/2017/11/Tạo-nút-Hotline-cho-website-wordpress.jpg" /></figure>
+<h4><strong>Giải thích ý nghĩa:</strong></h4>
+<ul>
+<li>Trong đó, ta có một khối &lt;div&gt;…&lt;/div&gt; chứa text “<strong>Hotline: 0972.939.830</strong>“.</li>
+<li>Khối &lt;div&gt;…&lt;/div&gt; đó được đặt nằm trong cặp thẻ &lt;a&gt;…&lt;/a&gt; có đường dẫn là “tel:+84972939830”.</li>
+<li>Do đó, khi ta ấn chuột vào nút Hotline, nó sẽ dẫn link tới số điện thoại bên trong đường dẫn ta vừa ghi.</li>
+</ul>
+<p>Bây giờ, chúng ta sẽ sử dụng đoạn code CSS sau để định dạng cho nút Hotline được đẹp lung linh hơn nhé!</p>
+<p>Copy toàn bộ đoạn code CSS dưới đây và dán vào sau thẻ đóng &lt;/body&gt; trong file <strong>footer.php</strong> của giao diện. (dán ngay bên trên đoạn code HTML vừa làm).</p>
+<div id="crayon-5dce7e76858e2682072926" class="crayon-syntax crayon-theme-classic crayon-font-monaco crayon-os-pc print-yes notranslate" data-settings=" minimize scroll-mouseover">
+<div class="crayon-plain-wrap"> </div>
+<div class="crayon-main">
+<table class="crayon-table">
+<tbody>
+<tr class="crayon-row">
+<td class="crayon-nums " data-settings="show">
+<div class="crayon-nums-content">
+<div class="crayon-num" data-line="crayon-5dce7e76858e2682072926-1">1</div>
+<div class="crayon-num crayon-striped-num" data-line="crayon-5dce7e76858e2682072926-2">2</div>
+<div class="crayon-num" data-line="crayon-5dce7e76858e2682072926-3">3</div>
+<div class="crayon-num crayon-striped-num" data-line="crayon-5dce7e76858e2682072926-4">4</div>
+<div class="crayon-num" data-line="crayon-5dce7e76858e2682072926-5">5</div>
+<div class="crayon-num crayon-striped-num" data-line="crayon-5dce7e76858e2682072926-6">6</div>
+<div class="crayon-num" data-line="crayon-5dce7e76858e2682072926-7">7</div>
+<div class="crayon-num crayon-striped-num" data-line="crayon-5dce7e76858e2682072926-8">8</div>
+<div class="crayon-num" data-line="crayon-5dce7e76858e2682072926-9">9</div>
+<div class="crayon-num crayon-striped-num" data-line="crayon-5dce7e76858e2682072926-10">10</div>
+<div class="crayon-num" data-line="crayon-5dce7e76858e2682072926-11">11</div>
+<div class="crayon-num crayon-striped-num" data-line="crayon-5dce7e76858e2682072926-12">12</div>
+<div class="crayon-num" data-line="crayon-5dce7e76858e2682072926-13">13</div>
+<div class="crayon-num crayon-striped-num" data-line="crayon-5dce7e76858e2682072926-14">14</div>
+<div class="crayon-num" data-line="crayon-5dce7e76858e2682072926-15">15</div>
+<div class="crayon-num crayon-striped-num" data-line="crayon-5dce7e76858e2682072926-16">16</div>
+<div class="crayon-num" data-line="crayon-5dce7e76858e2682072926-17">17</div>
+<div class="crayon-num crayon-striped-num" data-line="crayon-5dce7e76858e2682072926-18">18</div>
+<div class="crayon-num" data-line="crayon-5dce7e76858e2682072926-19">19</div>
+</div>
+</td>
+<td class="crayon-code">
+<div class="crayon-pre">
+<div id="crayon-5dce7e76858e2682072926-1" class="crayon-line"><span class="crayon-ta">&lt;style&gt;</span></div>
+<div id="crayon-5dce7e76858e2682072926-2" class="crayon-line crayon-striped-line"><span class="crayon-k ">.mobile-hotline</span><span class="crayon-sy">{</span><span class="crayon-e ">display</span><span class="crayon-sy">:</span><span class="crayon-i ">none</span><span class="crayon-sy">}</span></div>
+<div id="crayon-5dce7e76858e2682072926-3" class="crayon-line"><span class="crayon-k ">.hotline </span><span class="crayon-sy">{</span><span class="crayon-e ">position</span><span class="crayon-sy">:</span> <span class="crayon-i ">fixed</span><span class="crayon-sy">;</span></div>
+<div id="crayon-5dce7e76858e2682072926-4" class="crayon-line crayon-striped-line"><span class="crayon-h">    </span><span class="crayon-e ">left</span><span class="crayon-sy">:</span> <span class="crayon-i ">10px</span><span class="crayon-sy">;</span></div>
+<div id="crayon-5dce7e76858e2682072926-5" class="crayon-line"><span class="crayon-h">    </span><span class="crayon-e ">bottom</span><span class="crayon-sy">:</span> <span class="crayon-i ">10px</span><span class="crayon-sy">;</span></div>
+<div id="crayon-5dce7e76858e2682072926-6" class="crayon-line crayon-striped-line"><span class="crayon-h">    </span><span class="crayon-e ">z-index</span><span class="crayon-sy">:</span> <span class="crayon-i ">9000</span><span class="crayon-sy">;</span></div>
+<div id="crayon-5dce7e76858e2682072926-7" class="crayon-line"><span class="crayon-h">    </span><span class="crayon-e ">display</span><span class="crayon-sy">:</span> <span class="crayon-i ">block</span><span class="crayon-sy">;</span></div>
+<div id="crayon-5dce7e76858e2682072926-8" class="crayon-line crayon-striped-line"><span class="crayon-h">    </span><span class="crayon-e ">background</span><span class="crayon-sy">:</span> <span class="crayon-i ">#fac100</span><span class="crayon-sy">;</span></div>
+<div id="crayon-5dce7e76858e2682072926-9" class="crayon-line"><span class="crayon-h">    </span><span class="crayon-e ">color</span><span class="crayon-sy">:</span> <span class="crayon-i ">red</span><span class="crayon-sy">;</span></div>
+<div id="crayon-5dce7e76858e2682072926-10" class="crayon-line crayon-striped-line"><span class="crayon-h">    </span><span class="crayon-e ">padding-top</span><span class="crayon-sy">:</span> <span class="crayon-i ">5px</span><span class="crayon-sy">;</span><span class="crayon-e ">padding-bottom</span><span class="crayon-sy">:</span><span class="crayon-i ">5px</span><span class="crayon-sy">;</span> <span class="crayon-e ">padding-left</span><span class="crayon-sy">:</span><span class="crayon-i ">12px</span><span class="crayon-sy">;</span> <span class="crayon-e ">padding-right</span><span class="crayon-sy">:</span> <span class="crayon-i ">12px</span><span class="crayon-sy">;</span></div>
+<div id="crayon-5dce7e76858e2682072926-11" class="crayon-line"><span class="crayon-h">    </span><span class="crayon-e ">border-radius</span><span class="crayon-sy">:</span> <span class="crayon-i ">99px</span><span class="crayon-sy">;</span><span class="crayon-sy">}</span></div>
+<div id="crayon-5dce7e76858e2682072926-12" class="crayon-line crayon-striped-line"><span class="crayon-k ">.hotline .hotline-number</span><span class="crayon-sy">{</span><span class="crayon-e ">font-size</span><span class="crayon-sy">:</span><span class="crayon-i ">20px</span><span class="crayon-sy">;</span> <span class="crayon-e ">color</span><span class="crayon-sy">:</span> <span class="crayon-i ">#b20000</span><span class="crayon-sy">;</span> <span class="crayon-e ">font-weight</span><span class="crayon-sy">:</span> <span class="crayon-i ">bold</span><span class="crayon-sy">}</span></div>
+<div id="crayon-5dce7e76858e2682072926-13" class="crayon-line"> </div>
+<div id="crayon-5dce7e76858e2682072926-14" class="crayon-line crayon-striped-line"><span class="crayon-n">@media  (max-width: 767px) </span><span class="crayon-sy">{</span></div>
+<div id="crayon-5dce7e76858e2682072926-15" class="crayon-line"> </div>
+<div id="crayon-5dce7e76858e2682072926-16" class="crayon-line crayon-striped-line"><span class="crayon-h">    </span><span class="crayon-k ">.hotline</span><span class="crayon-sy">{</span></div>
+<div id="crayon-5dce7e76858e2682072926-17" class="crayon-line"> </div>
+<div id="crayon-5dce7e76858e2682072926-18" class="crayon-line crayon-striped-line"><span class="crayon-h">        </span><span class="crayon-e ">display</span> <span class="crayon-sy">:</span><span class="crayon-i ">none</span><span class="crayon-sy">;</span><span class="crayon-sy">}</span><span class="crayon-sy">}</span></div>
+<div id="crayon-5dce7e76858e2682072926-19" class="crayon-line"><span class="crayon-ta">&lt;/style&gt;</span></div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<figure id="attachment_4718" class="wp-caption aligncenter" aria-describedby="caption-attachment-4718"><img loading="lazy" class="size-full wp-image-4718 lazy-load-active" src="http://giuseart.com/wp-content/uploads/2017/11/T%E1%BA%A1o-n%C3%BAt-Hotline-cho-website-wordpress-2.jpg" alt="Tạo nút Hotline cho website wordpress 2" width="563" height="242" data-src="http://giuseart.com/wp-content/uploads/2017/11/Tạo-nút-Hotline-cho-website-wordpress-2.jpg" /></figure>
+<p>Đoạn code trên chúng ta đặt cho hotline những thuộc tính chính sau:</p>
+<ul>
+<li><strong>Nằm im một chỗ không nhúc nhích:</strong> Position: fixed;</li>
+<li><strong>Cách lề trái 10px:</strong> left:10px;</li>
+<li><strong>Cách chân trang 10px:</strong> bottom:10px;</li>
+<li><strong>Màu nền là vàng: background:</strong> #fac100;</li>
+<li><strong>Trên giao diện mobile</strong> thì display:none, nghĩa là cho ẩn trên giao diện di động, để phần sau ta chèn 2 cái nút kia đẹp hơn.</li>
+</ul>
+<p>Và sau 2 lần copy – paste, chúng ta đã làm được nút Hotline khá ấn tượng rồi phải không? Phần tiếp theo chúng ta cùng tiếp tục nghiên cứu để làm hai nút <strong>Hotline + Chat Facebook</strong> ở chân trang trên giao diện mobile như hình dưới nhé!</p>
+<figure id="attachment_4712" class="wp-caption aligncenter" aria-describedby="caption-attachment-4712"><img loading="lazy" class="size-full wp-image-4712 lazy-load-active" src="http://giuseart.com/wp-content/uploads/2017/11/Code-t%E1%BA%A1o-n%C3%BAt-Hotline-v%C3%A0-Chat-Facebook-%E1%BB%9F-ch%C3%A2n-trang-tr%C3%AAn-giao-di%E1%BB%87n-mobile.jpg" alt="Code tạo nút Hotline và Chat Facebook ở chân trang trên giao diện mobile" width="800" height="392" data-src="http://giuseart.com/wp-content/uploads/2017/11/Code-tạo-nút-Hotline-và-Chat-Facebook-ở-chân-trang-trên-giao-diện-mobile.jpg" /></figure>
+<h3>Tạo nút Hotline và Chat Facebook ở chân trang trên giao diện mobile</h3>
+<p>Cũng trong file footer.php của giao diện chúng ta vừa sửa, bây giờ các bạn copy và dán đoạn code HTML này vào sau thẻ đóng &lt;/body&gt; nhé!</p>
+<div id="crayon-5dce7e76858e5086608573" class="crayon-syntax crayon-theme-classic crayon-font-monaco crayon-os-pc print-yes notranslate" data-settings=" minimize scroll-mouseover">
+<div class="crayon-plain-wrap"> </div>
+<div class="crayon-main">
+<table class="crayon-table">
+<tbody>
+<tr class="crayon-row">
+<td class="crayon-nums " data-settings="show">
+<div class="crayon-nums-content">
+<div class="crayon-num" data-line="crayon-5dce7e76858e5086608573-1">1</div>
+<div class="crayon-num crayon-striped-num" data-line="crayon-5dce7e76858e5086608573-2">2</div>
+<div class="crayon-num" data-line="crayon-5dce7e76858e5086608573-3">3</div>
+<div class="crayon-num crayon-striped-num" data-line="crayon-5dce7e76858e5086608573-4">4</div>
+<div class="crayon-num" data-line="crayon-5dce7e76858e5086608573-5">5</div>
+<div class="crayon-num crayon-striped-num" data-line="crayon-5dce7e76858e5086608573-6">6</div>
+</div>
+</td>
+<td class="crayon-code">
+<div class="crayon-pre">
+<div id="crayon-5dce7e76858e5086608573-1" class="crayon-line"><span class="crayon-o">&lt;</span><span class="crayon-e">div </span><span class="crayon-t">class</span><span class="crayon-o">=</span><span class="crayon-s">&#8220;mobile-hotline&#8221;</span><span class="crayon-o">&gt;</span></div>
+<div id="crayon-5dce7e76858e5086608573-2" class="crayon-line crayon-striped-line"><span class="crayon-o">&lt;</span><span class="crayon-e">div </span><span class="crayon-t">class</span><span class="crayon-o">=</span><span class="crayon-s">&#8220;mobile-hotline-left&#8221;</span><span class="crayon-o">&gt;</span></div>
+<div id="crayon-5dce7e76858e5086608573-3" class="crayon-line"><span class="crayon-o">&lt;</span><span class="crayon-i">a</span> <span class="crayon-v">href</span><span class="crayon-o">=</span><span class="crayon-s">&#8220;http://www.messenger.com/t/joseph.thien.75&#8221;</span> <span class="crayon-v">target</span><span class="crayon-o">=</span><span class="crayon-s">&#8220;blank&#8221;</span><span class="crayon-o">&gt;</span><span class="crayon-e">Chat </span><span class="crayon-v">Facebook</span><span class="crayon-o">&lt;</span><span class="crayon-o">/</span><span class="crayon-v">a</span><span class="crayon-o">&gt;</span></div>
+<div id="crayon-5dce7e76858e5086608573-4" class="crayon-line crayon-striped-line"><span class="crayon-o">&lt;</span><span class="crayon-o">/</span><span class="crayon-v">div</span><span class="crayon-o">&gt;</span></div>
+<div id="crayon-5dce7e76858e5086608573-5" class="crayon-line"><span class="crayon-o">&lt;</span><span class="crayon-e">div </span><span class="crayon-t">class</span><span class="crayon-o">=</span><span class="crayon-s">&#8220;mobile-hotline-right&#8221;</span><span class="crayon-o">&gt;</span><span class="crayon-o">&lt;</span><span class="crayon-i">a</span> <span class="crayon-v">href</span><span class="crayon-o">=</span><span class="crayon-s">&#8220;tel:+84972939830&#8221;</span> <span class="crayon-v">target</span><span class="crayon-o">=</span><span class="crayon-s">&#8220;blank&#8221;</span><span class="crayon-o">&gt;</span><span class="crayon-i">G</span>ọ<span class="crayon-i">i</span> đ<span class="crayon-i">i</span>ệ<span class="crayon-i">n</span> <span class="crayon-v">ngay</span><span class="crayon-o">&lt;</span><span class="crayon-o">/</span><span class="crayon-v">a</span><span class="crayon-o">&gt;</span><span class="crayon-o">&lt;</span><span class="crayon-o">/</span><span class="crayon-v">div</span><span class="crayon-o">&gt;</span></div>
+<div id="crayon-5dce7e76858e5086608573-6" class="crayon-line crayon-striped-line"><span class="crayon-o">&lt;</span><span class="crayon-o">/</span><span class="crayon-v">div</span><span class="crayon-o">&gt;</span></div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<p>Các bạn thay link Messenger cá nhân và số hotline vào nhé. Còn nếu ai không biết địa chỉ Messenger của mình thế nào thì nhìn hình bên dưới nhé, các bạn nhớ copy phần cuối của URL trang cá nhân, rồi thêm vào sau “http://www.messenger.com/t/” là được nhé!</p>
+<figure id="attachment_4719" class="wp-caption aligncenter" aria-describedby="caption-attachment-4719"><img loading="lazy" class="size-full wp-image-4719 lazy-load-active" src="http://giuseart.com/wp-content/uploads/2017/11/Ch%C3%A8n-n%C3%BAt-Chat-Facebook-v%C3%A0o-website.jpg" alt="Chèn nút Chat Facebook vào website" width="692" height="251" data-src="http://giuseart.com/wp-content/uploads/2017/11/Chèn-nút-Chat-Facebook-vào-website.jpg" /></figure>
+<p>Bước tiếp theo, copy toàn bộ đoạn code CSS này, và dán vào bên trong cặp thẻ &lt;style&gt;…&lt;/style&gt; mà mình vừa sử dụng ở phần trên nhé!</p>
+<div id="crayon-5dce7e76858ea387453944" class="crayon-syntax crayon-theme-classic crayon-font-monaco crayon-os-pc print-yes notranslate" data-settings=" minimize scroll-mouseover">
+<div class="crayon-plain-wrap"> </div>
+<div class="crayon-main">
+<table class="crayon-table">
+<tbody>
+<tr class="crayon-row">
+<td class="crayon-nums " data-settings="show">
+<div class="crayon-nums-content">
+<div class="crayon-num" data-line="crayon-5dce7e76858ea387453944-1">1</div>
+<div class="crayon-num crayon-striped-num" data-line="crayon-5dce7e76858ea387453944-2">2</div>
+<div class="crayon-num" data-line="crayon-5dce7e76858ea387453944-3">3</div>
+<div class="crayon-num crayon-striped-num" data-line="crayon-5dce7e76858ea387453944-4">4</div>
+<div class="crayon-num" data-line="crayon-5dce7e76858ea387453944-5">5</div>
+<div class="crayon-num crayon-striped-num" data-line="crayon-5dce7e76858ea387453944-6">6</div>
+<div class="crayon-num" data-line="crayon-5dce7e76858ea387453944-7">7</div>
+</div>
+</td>
+<td class="crayon-code">
+<div class="crayon-pre">
+<div id="crayon-5dce7e76858ea387453944-1" class="crayon-line"><span class="crayon-sy">@</span><span class="crayon-e">media</span><span class="crayon-h">  </span><span class="crayon-sy">(</span><span class="crayon-v">max</span><span class="crayon-o">&#8211;</span><span class="crayon-v">width</span><span class="crayon-o">:</span> <span class="crayon-cn">767px</span><span class="crayon-sy">)</span><span class="crayon-sy">{</span><span class="crayon-sy">.</span><span class="crayon-v">mobile</span><span class="crayon-o">&#8211;</span><span class="crayon-e">hotline</span><span class="crayon-sy">{</span><span class="crayon-v">display</span><span class="crayon-o">:</span> <span class="crayon-v">block</span><span class="crayon-sy">;</span> <span class="crayon-v">bottom</span><span class="crayon-o">:</span> <span class="crayon-cn">0</span><span class="crayon-sy">;</span> <span class="crayon-v">width</span><span class="crayon-o">:</span> <span class="crayon-cn">100</span><span class="crayon-o">%</span><span class="crayon-sy">;</span> <span class="crayon-v">background</span><span class="crayon-o">:</span><span class="crayon-e">rgba</span><span class="crayon-sy">(</span><span class="crayon-cn">0</span><span class="crayon-sy">,</span><span class="crayon-cn">0</span><span class="crayon-sy">,</span><span class="crayon-cn">0</span><span class="crayon-sy">,</span><span class="crayon-cn">0.5</span><span class="crayon-sy">)</span><span class="crayon-sy">;</span> <span class="crayon-v">height</span><span class="crayon-o">:</span> <span class="crayon-cn">60px</span><span class="crayon-sy">;</span> <span class="crayon-v">position</span><span class="crayon-o">:</span> <span class="crayon-v">fixed</span><span class="crayon-sy">;</span> <span class="crayon-v">z</span><span class="crayon-o">&#8211;</span><span class="crayon-v">index</span><span class="crayon-o">:</span><span class="crayon-cn">9999999</span><span class="crayon-sy">}</span></div>
+<div id="crayon-5dce7e76858ea387453944-2" class="crayon-line crayon-striped-line"><span class="crayon-sy">.</span><span class="crayon-v">mobile</span><span class="crayon-o">&#8211;</span><span class="crayon-i">hotline</span> <span class="crayon-sy">.</span><span class="crayon-v">mobile</span><span class="crayon-o">&#8211;</span><span class="crayon-e">hotline</span><span class="crayon-o">&#8211;</span><span class="crayon-e">left</span><span class="crayon-sy">{</span><span class="crayon-v">width</span><span class="crayon-o">:</span> <span class="crayon-cn">45</span><span class="crayon-o">%</span><span class="crayon-sy">;</span> <span class="crayon-t">float</span><span class="crayon-o">:</span> <span class="crayon-v">left</span><span class="crayon-sy">;</span> <span class="crayon-v">text</span><span class="crayon-o">&#8211;</span><span class="crayon-v">align</span><span class="crayon-o">:</span> <span class="crayon-v">center</span><span class="crayon-sy">;</span> <span class="crayon-v">background</span><span class="crayon-o">:</span> <span class="crayon-p">#00a502; margin-left: 10px; margin-right:5px; margin-top: 7px; height: 45px; border-radius: 4px}</span></div>
+<div id="crayon-5dce7e76858ea387453944-3" class="crayon-line"><span class="crayon-sy">.</span><span class="crayon-v">mobile</span><span class="crayon-o">&#8211;</span><span class="crayon-i">hotline</span> <span class="crayon-sy">.</span><span class="crayon-v">mobile</span><span class="crayon-o">&#8211;</span><span class="crayon-e">hotline</span><span class="crayon-o">&#8211;</span><span class="crayon-e">left</span> <span class="crayon-e">a</span><span class="crayon-sy">{</span><span class="crayon-v">color</span><span class="crayon-o">:</span> <span class="crayon-v">white</span><span class="crayon-sy">;</span> <span class="crayon-v">line</span><span class="crayon-o">&#8211;</span><span class="crayon-v">height</span><span class="crayon-o">:</span> <span class="crayon-cn">46px</span><span class="crayon-sy">;</span> <span class="crayon-v">font</span><span class="crayon-o">&#8211;</span><span class="crayon-v">size</span><span class="crayon-o">:</span><span class="crayon-cn">16px</span><span class="crayon-sy">;</span> <span class="crayon-v">font</span><span class="crayon-o">&#8211;</span><span class="crayon-v">weight</span><span class="crayon-o">:</span> <span class="crayon-v">bold</span><span class="crayon-sy">}</span></div>
+<div id="crayon-5dce7e76858ea387453944-4" class="crayon-line crayon-striped-line"> </div>
+<div id="crayon-5dce7e76858ea387453944-5" class="crayon-line"><span class="crayon-sy">.</span><span class="crayon-v">mobile</span><span class="crayon-o">&#8211;</span><span class="crayon-i">hotline</span> <span class="crayon-sy">.</span><span class="crayon-v">mobile</span><span class="crayon-o">&#8211;</span><span class="crayon-e">hotline</span><span class="crayon-o">&#8211;</span><span class="crayon-e">right</span><span class="crayon-sy">{</span><span class="crayon-v">width</span><span class="crayon-o">:</span> <span class="crayon-cn">45</span><span class="crayon-o">%</span><span class="crayon-sy">;</span> <span class="crayon-t">float</span><span class="crayon-o">:</span> <span class="crayon-v">right</span><span class="crayon-sy">;</span> <span class="crayon-v">text</span><span class="crayon-o">&#8211;</span><span class="crayon-v">align</span><span class="crayon-o">:</span> <span class="crayon-v">center</span><span class="crayon-sy">;</span> <span class="crayon-v">background</span><span class="crayon-o">:</span> <span class="crayon-p">#fac100; margin-left: 5px; margin-right: 10px; margin-top: 7px; height: 45px; border-radius: 4px}</span></div>
+<div id="crayon-5dce7e76858ea387453944-6" class="crayon-line crayon-striped-line"><span class="crayon-sy">.</span><span class="crayon-v">mobile</span><span class="crayon-o">&#8211;</span><span class="crayon-i">hotline</span> <span class="crayon-sy">.</span><span class="crayon-v">mobile</span><span class="crayon-o">&#8211;</span><span class="crayon-e">hotline</span><span class="crayon-o">&#8211;</span><span class="crayon-e">right</span> <span class="crayon-e">a</span><span class="crayon-sy">{</span><span class="crayon-v">color</span><span class="crayon-o">:</span> <span class="crayon-v">red</span><span class="crayon-sy">;</span> <span class="crayon-v">line</span><span class="crayon-o">&#8211;</span><span class="crayon-v">height</span><span class="crayon-o">:</span> <span class="crayon-cn">46px</span><span class="crayon-sy">;</span> <span class="crayon-v">font</span><span class="crayon-o">&#8211;</span><span class="crayon-v">size</span><span class="crayon-o">:</span> <span class="crayon-cn">16px</span><span class="crayon-sy">;</span> <span class="crayon-v">font</span><span class="crayon-o">&#8211;</span><span class="crayon-v">weight</span><span class="crayon-o">:</span> <span class="crayon-v">bold</span><span class="crayon-sy">}</span></div>
+<div id="crayon-5dce7e76858ea387453944-7" class="crayon-line"><span class="crayon-sy">}</span></div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<p>Thế là mình đã có một thanh ngang ở chân trang chứa 2 nút tiện ích Hotline + Chat Facebook rồi nhé!</p>
+<p>Tổng hợp code của toàn bộ bài viết:</p>
+<div id="crayon-5dce7e76858ed080183297" class="crayon-syntax crayon-theme-classic crayon-font-monaco crayon-os-pc print-yes notranslate" data-settings=" minimize scroll-mouseover">
+<div class="crayon-plain-wrap"> </div>
+<div class="crayon-main">
+<table class="crayon-table">
+<tbody>
+<tr class="crayon-row">
+<td class="crayon-nums " data-settings="show">
+<div class="crayon-nums-content">
+<div class="crayon-num" data-line="crayon-5dce7e76858ed080183297-1">1</div>
+<div class="crayon-num crayon-striped-num" data-line="crayon-5dce7e76858ed080183297-2">2</div>
+<div class="crayon-num" data-line="crayon-5dce7e76858ed080183297-3">3</div>
+<div class="crayon-num crayon-striped-num" data-line="crayon-5dce7e76858ed080183297-4">4</div>
+<div class="crayon-num" data-line="crayon-5dce7e76858ed080183297-5">5</div>
+<div class="crayon-num crayon-striped-num" data-line="crayon-5dce7e76858ed080183297-6">6</div>
+<div class="crayon-num" data-line="crayon-5dce7e76858ed080183297-7">7</div>
+<div class="crayon-num crayon-striped-num" data-line="crayon-5dce7e76858ed080183297-8">8</div>
+<div class="crayon-num" data-line="crayon-5dce7e76858ed080183297-9">9</div>
+<div class="crayon-num crayon-striped-num" data-line="crayon-5dce7e76858ed080183297-10">10</div>
+<div class="crayon-num" data-line="crayon-5dce7e76858ed080183297-11">11</div>
+<div class="crayon-num crayon-striped-num" data-line="crayon-5dce7e76858ed080183297-12">12</div>
+<div class="crayon-num" data-line="crayon-5dce7e76858ed080183297-13">13</div>
+<div class="crayon-num crayon-striped-num" data-line="crayon-5dce7e76858ed080183297-14">14</div>
+<div class="crayon-num" data-line="crayon-5dce7e76858ed080183297-15">15</div>
+<div class="crayon-num crayon-striped-num" data-line="crayon-5dce7e76858ed080183297-16">16</div>
+<div class="crayon-num" data-line="crayon-5dce7e76858ed080183297-17">17</div>
+<div class="crayon-num crayon-striped-num" data-line="crayon-5dce7e76858ed080183297-18">18</div>
+<div class="crayon-num" data-line="crayon-5dce7e76858ed080183297-19">19</div>
+<div class="crayon-num crayon-striped-num" data-line="crayon-5dce7e76858ed080183297-20">20</div>
+<div class="crayon-num" data-line="crayon-5dce7e76858ed080183297-21">21</div>
+<div class="crayon-num crayon-striped-num" data-line="crayon-5dce7e76858ed080183297-22">22</div>
+<div class="crayon-num" data-line="crayon-5dce7e76858ed080183297-23">23</div>
+<div class="crayon-num crayon-striped-num" data-line="crayon-5dce7e76858ed080183297-24">24</div>
+<div class="crayon-num" data-line="crayon-5dce7e76858ed080183297-25">25</div>
+<div class="crayon-num crayon-striped-num" data-line="crayon-5dce7e76858ed080183297-26">26</div>
+<div class="crayon-num" data-line="crayon-5dce7e76858ed080183297-27">27</div>
+<div class="crayon-num crayon-striped-num" data-line="crayon-5dce7e76858ed080183297-28">28</div>
+<div class="crayon-num" data-line="crayon-5dce7e76858ed080183297-29">29</div>
+<div class="crayon-num crayon-striped-num" data-line="crayon-5dce7e76858ed080183297-30">30</div>
+<div class="crayon-num" data-line="crayon-5dce7e76858ed080183297-31">31</div>
+<div class="crayon-num crayon-striped-num" data-line="crayon-5dce7e76858ed080183297-32">32</div>
+<div class="crayon-num" data-line="crayon-5dce7e76858ed080183297-33">33</div>
+<div class="crayon-num crayon-striped-num" data-line="crayon-5dce7e76858ed080183297-34">34</div>
+<div class="crayon-num" data-line="crayon-5dce7e76858ed080183297-35">35</div>
+<div class="crayon-num crayon-striped-num" data-line="crayon-5dce7e76858ed080183297-36">36</div>
+<div class="crayon-num" data-line="crayon-5dce7e76858ed080183297-37">37</div>
+<div class="crayon-num crayon-striped-num" data-line="crayon-5dce7e76858ed080183297-38">38</div>
+<div class="crayon-num" data-line="crayon-5dce7e76858ed080183297-39">39</div>
+</div>
+</td>
+<td class="crayon-code">
+<div class="crayon-pre">
+<div id="crayon-5dce7e76858ed080183297-1" class="crayon-line"><span class="crayon-ta">&lt;style&gt;</span></div>
+<div id="crayon-5dce7e76858ed080183297-2" class="crayon-line crayon-striped-line"><span class="crayon-k ">.mobile-hotline</span><span class="crayon-sy">{</span><span class="crayon-e ">display</span><span class="crayon-sy">:</span><span class="crayon-i ">none</span><span class="crayon-sy">}</span></div>
+<div id="crayon-5dce7e76858ed080183297-3" class="crayon-line"> </div>
+<div id="crayon-5dce7e76858ed080183297-4" class="crayon-line crayon-striped-line"><span class="crayon-k ">.hotline </span><span class="crayon-sy">{</span><span class="crayon-e ">position</span><span class="crayon-sy">:</span> <span class="crayon-i ">fixed</span><span class="crayon-sy">;</span></div>
+<div id="crayon-5dce7e76858ed080183297-5" class="crayon-line"><span class="crayon-h">    </span><span class="crayon-e ">left</span><span class="crayon-sy">:</span> <span class="crayon-i ">10px</span><span class="crayon-sy">;</span></div>
+<div id="crayon-5dce7e76858ed080183297-6" class="crayon-line crayon-striped-line"><span class="crayon-h">    </span><span class="crayon-e ">bottom</span><span class="crayon-sy">:</span> <span class="crayon-i ">10px</span><span class="crayon-sy">;</span></div>
+<div id="crayon-5dce7e76858ed080183297-7" class="crayon-line"><span class="crayon-h">    </span><span class="crayon-e ">z-index</span><span class="crayon-sy">:</span> <span class="crayon-i ">9000</span><span class="crayon-sy">;</span></div>
+<div id="crayon-5dce7e76858ed080183297-8" class="crayon-line crayon-striped-line"><span class="crayon-h">    </span><span class="crayon-e ">display</span><span class="crayon-sy">:</span> <span class="crayon-i ">block</span><span class="crayon-sy">;</span></div>
+<div id="crayon-5dce7e76858ed080183297-9" class="crayon-line"><span class="crayon-h">    </span><span class="crayon-e ">background</span><span class="crayon-sy">:</span> <span class="crayon-i ">#fac100</span><span class="crayon-sy">;</span></div>
+<div id="crayon-5dce7e76858ed080183297-10" class="crayon-line crayon-striped-line"><span class="crayon-h">    </span><span class="crayon-e ">color</span><span class="crayon-sy">:</span> <span class="crayon-i ">red</span><span class="crayon-sy">;</span></div>
+<div id="crayon-5dce7e76858ed080183297-11" class="crayon-line"><span class="crayon-h">    </span><span class="crayon-e ">padding-top</span><span class="crayon-sy">:</span> <span class="crayon-i ">5px</span><span class="crayon-sy">;</span><span class="crayon-e ">padding-bottom</span><span class="crayon-sy">:</span><span class="crayon-i ">5px</span><span class="crayon-sy">;</span> <span class="crayon-e ">padding-left</span><span class="crayon-sy">:</span><span class="crayon-i ">12px</span><span class="crayon-sy">;</span> <span class="crayon-e ">padding-right</span><span class="crayon-sy">:</span> <span class="crayon-i ">12px</span><span class="crayon-sy">;</span></div>
+<div id="crayon-5dce7e76858ed080183297-12" class="crayon-line crayon-striped-line"><span class="crayon-h">    </span><span class="crayon-e ">border-radius</span><span class="crayon-sy">:</span> <span class="crayon-i ">99px</span><span class="crayon-sy">;</span><span class="crayon-sy">}</span></div>
+<div id="crayon-5dce7e76858ed080183297-13" class="crayon-line"><span class="crayon-k ">.hotline .hotline-number</span><span class="crayon-sy">{</span><span class="crayon-e ">font-size</span><span class="crayon-sy">:</span><span class="crayon-i ">20px</span><span class="crayon-sy">;</span> <span class="crayon-e ">color</span><span class="crayon-sy">:</span> <span class="crayon-i ">#b20000</span><span class="crayon-sy">;</span> <span class="crayon-e ">font-weight</span><span class="crayon-sy">:</span> <span class="crayon-i ">bold</span><span class="crayon-sy">}</span></div>
+<div id="crayon-5dce7e76858ed080183297-14" class="crayon-line crayon-striped-line"> </div>
+<div id="crayon-5dce7e76858ed080183297-15" class="crayon-line"><span class="crayon-n">@media  (max-width: 767px) </span><span class="crayon-sy">{</span></div>
+<div id="crayon-5dce7e76858ed080183297-16" class="crayon-line crayon-striped-line"> </div>
+<div id="crayon-5dce7e76858ed080183297-17" class="crayon-line"><span class="crayon-h">    </span><span class="crayon-k ">.hotline</span><span class="crayon-sy">{</span></div>
+<div id="crayon-5dce7e76858ed080183297-18" class="crayon-line crayon-striped-line"> </div>
+<div id="crayon-5dce7e76858ed080183297-19" class="crayon-line"><span class="crayon-h">        </span><span class="crayon-e ">display</span> <span class="crayon-sy">:</span><span class="crayon-i ">none</span><span class="crayon-sy">;</span></div>
+<div id="crayon-5dce7e76858ed080183297-20" class="crayon-line crayon-striped-line"> </div>
+<div id="crayon-5dce7e76858ed080183297-21" class="crayon-line"><span class="crayon-h">    </span><span class="crayon-sy">}</span></div>
+<div id="crayon-5dce7e76858ed080183297-22" class="crayon-line crayon-striped-line"><span class="crayon-k ">.mobile-hotline</span><span class="crayon-sy">{</span><span class="crayon-e ">display</span><span class="crayon-sy">:</span> <span class="crayon-i ">block</span><span class="crayon-sy">;</span> <span class="crayon-e ">bottom</span><span class="crayon-sy">:</span> <span class="crayon-i ">0</span><span class="crayon-sy">;</span> <span class="crayon-e ">width</span><span class="crayon-sy">:</span> <span class="crayon-i ">100%</span><span class="crayon-sy">;</span> <span class="crayon-e ">background</span><span class="crayon-sy">:</span><span class="crayon-i ">rgba</span><span class="crayon-sy">(</span><span class="crayon-i ">0,0,0,0.5</span><span class="crayon-sy">)</span><span class="crayon-sy">;</span> <span class="crayon-e ">height</span><span class="crayon-sy">:</span> <span class="crayon-i ">60px</span><span class="crayon-sy">;</span> <span class="crayon-e ">position</span><span class="crayon-sy">:</span> <span class="crayon-i ">fixed</span><span class="crayon-sy">;</span> <span class="crayon-e ">z-index</span><span class="crayon-sy">:</span><span class="crayon-i ">9999999</span><span class="crayon-sy">}</span></div>
+<div id="crayon-5dce7e76858ed080183297-23" class="crayon-line"><span class="crayon-k ">.mobile-hotline .mobile-hotline-left</span><span class="crayon-sy">{</span><span class="crayon-e ">width</span><span class="crayon-sy">:</span> <span class="crayon-i ">45%</span><span class="crayon-sy">;</span> <span class="crayon-e ">float</span><span class="crayon-sy">:</span> <span class="crayon-i ">left</span><span class="crayon-sy">;</span> <span class="crayon-e ">text-align</span><span class="crayon-sy">:</span> <span class="crayon-i ">center</span><span class="crayon-sy">;</span> <span class="crayon-e ">background</span><span class="crayon-sy">:</span> <span class="crayon-i ">#00a502</span><span class="crayon-sy">;</span> <span class="crayon-e ">margin-left</span><span class="crayon-sy">:</span> <span class="crayon-i ">10px</span><span class="crayon-sy">;</span> <span class="crayon-e ">margin-right</span><span class="crayon-sy">:</span><span class="crayon-i ">5px</span><span class="crayon-sy">;</span> <span class="crayon-e ">margin-top</span><span class="crayon-sy">:</span> <span class="crayon-i ">7px</span><span class="crayon-sy">;</span> <span class="crayon-e ">height</span><span class="crayon-sy">:</span> <span class="crayon-i ">45px</span><span class="crayon-sy">;</span> <span class="crayon-e ">border-radius</span><span class="crayon-sy">:</span> <span class="crayon-i ">4px</span><span class="crayon-sy">}</span></div>
+<div id="crayon-5dce7e76858ed080183297-24" class="crayon-line crayon-striped-line"><span class="crayon-k ">.mobile-hotline .mobile-hotline-left a</span><span class="crayon-sy">{</span><span class="crayon-e ">color</span><span class="crayon-sy">:</span> <span class="crayon-i ">white</span><span class="crayon-sy">;</span> <span class="crayon-e ">line-height</span><span class="crayon-sy">:</span> <span class="crayon-i ">46px</span><span class="crayon-sy">;</span> <span class="crayon-e ">font-size</span><span class="crayon-sy">:</span><span class="crayon-i ">16px</span><span class="crayon-sy">;</span> <span class="crayon-e ">font-weight</span><span class="crayon-sy">:</span> <span class="crayon-i ">bold</span><span class="crayon-sy">}</span></div>
+<div id="crayon-5dce7e76858ed080183297-25" class="crayon-line"> </div>
+<div id="crayon-5dce7e76858ed080183297-26" class="crayon-line crayon-striped-line"><span class="crayon-k ">.mobile-hotline .mobile-hotline-right</span><span class="crayon-sy">{</span><span class="crayon-e ">width</span><span class="crayon-sy">:</span> <span class="crayon-i ">45%</span><span class="crayon-sy">;</span> <span class="crayon-e ">float</span><span class="crayon-sy">:</span> <span class="crayon-i ">right</span><span class="crayon-sy">;</span> <span class="crayon-e ">text-align</span><span class="crayon-sy">:</span> <span class="crayon-i ">center</span><span class="crayon-sy">;</span> <span class="crayon-e ">background</span><span class="crayon-sy">:</span> <span class="crayon-i ">#fac100</span><span class="crayon-sy">;</span> <span class="crayon-e ">margin-left</span><span class="crayon-sy">:</span> <span class="crayon-i ">5px</span><span class="crayon-sy">;</span> <span class="crayon-e ">margin-right</span><span class="crayon-sy">:</span> <span class="crayon-i ">10px</span><span class="crayon-sy">;</span> <span class="crayon-e ">margin-top</span><span class="crayon-sy">:</span> <span class="crayon-i ">7px</span><span class="crayon-sy">;</span> <span class="crayon-e ">height</span><span class="crayon-sy">:</span> <span class="crayon-i ">45px</span><span class="crayon-sy">;</span> <span class="crayon-e ">border-radius</span><span class="crayon-sy">:</span> <span class="crayon-i ">4px</span><span class="crayon-sy">}</span></div>
+<div id="crayon-5dce7e76858ed080183297-27" class="crayon-line"><span class="crayon-k ">.mobile-hotline .mobile-hotline-right a</span><span class="crayon-sy">{</span><span class="crayon-e ">color</span><span class="crayon-sy">:</span> <span class="crayon-i ">red</span><span class="crayon-sy">;</span> <span class="crayon-e ">line-height</span><span class="crayon-sy">:</span> <span class="crayon-i ">46px</span><span class="crayon-sy">;</span> <span class="crayon-e ">font-size</span><span class="crayon-sy">:</span> <span class="crayon-i ">16px</span><span class="crayon-sy">;</span> <span class="crayon-e ">font-weight</span><span class="crayon-sy">:</span> <span class="crayon-i ">bold</span><span class="crayon-sy">}</span></div>
+<div id="crayon-5dce7e76858ed080183297-28" class="crayon-line crayon-striped-line"><span class="crayon-sy">}</span></div>
+<div id="crayon-5dce7e76858ed080183297-29" class="crayon-line"><span class="crayon-ta">&lt;/style&gt;</span></div>
+<div id="crayon-5dce7e76858ed080183297-30" class="crayon-line crayon-striped-line"><span class="crayon-o">&lt;</span><span class="crayon-i">a</span> <span class="crayon-v">href</span><span class="crayon-o">=</span><span class="crayon-s">&#8220;tel:+84972939830&#8221;</span><span class="crayon-o">&gt;</span><span class="crayon-o">&lt;</span><span class="crayon-e">div </span><span class="crayon-t">class</span><span class="crayon-o">=</span><span class="crayon-s">&#8220;hotline&#8221;</span><span class="crayon-o">&gt;</span></div>
+<div id="crayon-5dce7e76858ed080183297-31" class="crayon-line"><span class="crayon-o">&lt;</span><span class="crayon-e">span </span><span class="crayon-t">class</span><span class="crayon-o">=</span><span class="crayon-s">&#8220;before-hotline&#8221;</span><span class="crayon-o">&gt;</span><span class="crayon-v">Hotline</span><span class="crayon-o">:</span><span class="crayon-o">&lt;</span><span class="crayon-o">/</span><span class="crayon-v">span</span><span class="crayon-o">&gt;</span></div>
+<div id="crayon-5dce7e76858ed080183297-32" class="crayon-line crayon-striped-line"><span class="crayon-o">&lt;</span><span class="crayon-e">span </span><span class="crayon-t">class</span><span class="crayon-o">=</span><span class="crayon-s">&#8220;hotline-number&#8221;</span><span class="crayon-o">&gt;</span><span class="crayon-cn">0972.939.830</span><span class="crayon-o">&lt;</span><span class="crayon-o">/</span><span class="crayon-v">span</span><span class="crayon-o">&gt;</span></div>
+<div id="crayon-5dce7e76858ed080183297-33" class="crayon-line"><span class="crayon-o">&lt;</span><span class="crayon-o">/</span><span class="crayon-v">div</span><span class="crayon-o">&gt;</span><span class="crayon-o">&lt;</span><span class="crayon-o">/</span><span class="crayon-v">a</span><span class="crayon-o">&gt;</span></div>
+<div id="crayon-5dce7e76858ed080183297-34" class="crayon-line crayon-striped-line"><span class="crayon-o">&lt;</span><span class="crayon-e">div </span><span class="crayon-t">class</span><span class="crayon-o">=</span><span class="crayon-s">&#8220;mobile-hotline&#8221;</span><span class="crayon-o">&gt;</span></div>
+<div id="crayon-5dce7e76858ed080183297-35" class="crayon-line"><span class="crayon-o">&lt;</span><span class="crayon-e">div </span><span class="crayon-t">class</span><span class="crayon-o">=</span><span class="crayon-s">&#8220;mobile-hotline-left&#8221;</span><span class="crayon-o">&gt;</span></div>
+<div id="crayon-5dce7e76858ed080183297-36" class="crayon-line crayon-striped-line"><span class="crayon-o">&lt;</span><span class="crayon-i">a</span> <span class="crayon-v">href</span><span class="crayon-o">=</span><span class="crayon-s">&#8220;http://www.messenger.com/t/joseph.thien.75&#8221;</span> <span class="crayon-v">target</span><span class="crayon-o">=</span><span class="crayon-s">&#8220;blank&#8221;</span><span class="crayon-o">&gt;</span><span class="crayon-e">Chat </span><span class="crayon-v">Facebook</span><span class="crayon-o">&lt;</span><span class="crayon-o">/</span><span class="crayon-v">a</span><span class="crayon-o">&gt;</span></div>
+<div id="crayon-5dce7e76858ed080183297-37" class="crayon-line"><span class="crayon-o">&lt;</span><span class="crayon-o">/</span><span class="crayon-v">div</span><span class="crayon-o">&gt;</span></div>
+<div id="crayon-5dce7e76858ed080183297-38" class="crayon-line crayon-striped-line"><span class="crayon-o">&lt;</span><span class="crayon-e">div </span><span class="crayon-t">class</span><span class="crayon-o">=</span><span class="crayon-s">&#8220;mobile-hotline-right&#8221;</span><span class="crayon-o">&gt;</span><span class="crayon-o">&lt;</span><span class="crayon-i">a</span> <span class="crayon-v">href</span><span class="crayon-o">=</span><span class="crayon-s">&#8220;tel:+84972939830&#8221;</span> <span class="crayon-v">target</span><span class="crayon-o">=</span><span class="crayon-s">&#8220;blank&#8221;</span><span class="crayon-o">&gt;</span><span class="crayon-i">G</span>ọ<span class="crayon-i">i</span> đ<span class="crayon-i">i</span>ệ<span class="crayon-i">n</span> <span class="crayon-v">ngay</span><span class="crayon-o">&lt;</span><span class="crayon-o">/</span><span class="crayon-v">a</span><span class="crayon-o">&gt;</span><span class="crayon-o">&lt;</span><span class="crayon-o">/</span><span class="crayon-v">div</span><span class="crayon-o">&gt;</span></div>
+<div id="crayon-5dce7e76858ed080183297-39" class="crayon-line"><span class="crayon-o">&lt;</span><span class="crayon-o">/</span><span class="crayon-v">div</span><span class="crayon-o">&gt;</span></div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<p>Các bạn cũng có thể copy toàn bộ đoạn code trên và dán vào sau thẻ đóng &lt;/body&gt; trong file footer.php của giao diện bạn đang dùng, để sử dụng đồng thời cả 2 loại nút bấm cho desktop và mobile luôn nhé! Quá dễ phải không nào?</p>
+<h3>Lời kết</h3>
+<p>Các bạn thử làm coi sao nhé, nếu không được thì vui lòng liên hệ mình để được hỗ trợ nhé. Cám ơn sự quan tâm theo dõi và ủng hộ của các bạn danh cho blog Ninh Bình Web trong suốt thời gian qua. Chúc các bạn làm tốt nhé!</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+	</channel>
+</rss>

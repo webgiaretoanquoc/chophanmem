@@ -1,0 +1,668 @@
+/*
+Theme Name: Flatsome Child
+Description: NamKiem developed for Flatsome Theme
+Author: UX Themes
+Template: flatsome
+Version: 3.11.3
+*/
+
+/*************** ADD CUSTOM CSS HERE.   ***************/
+.header-search-form-wrapper input[type='search']{ border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;   height: 43px;
+	box-shadow: none;
+	border: 2px solid #f26a56;}
+.header-search-form-wrapper .searchform .button.icon{    height: 43px;
+	width: 70px;
+	background-image: linear-gradient(to right, #f26957 , #e31388);border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;}.header-button .is-outline {
+		color: #020202;
+		text-transform: none;
+		font-weight: normal;
+		font-size: 14px;
+		padding-top: 2px;
+}.header-button .is-outline:hover{color:white}
+.header-bottom {background-image: linear-gradient(to right, #e31587 , #ff351e); border-top: 1px solid #f6f6f6;
+	box-shadow: 2px 7px 10px #0000000f;
+}
+.section-title-normal span {
+	margin-right: 15px;
+	padding-bottom: 6px;
+	border-bottom: 0;
+	margin-bottom: 0;
+	text-transform: none;
+	font-size: 18px;
+}
+.tieu-chi-section .icon-box .icon-box-text{font-size:15px;padding-top:12px}
+.tieu-chi-section .icon-box h3{margin-bottom: 0;
+	font-size: 16px;color: #eb0e86;}
+.tieu-chi-section .col{padding-bottom:0}
+.tieu-chi-section .icon-box{background:white; border: 1px solid #f4f4f4;
+	padding: 6px;
+	border-radius: 5px;
+	box-shadow: 2px 2px 20px #0000000f;}
+.section-title-normal {
+	border-bottom: 1px solid #e41884;}.section-title-container {
+		margin-bottom: 0;
+}
+.list-post-ngang .post-item .box-text{padding:0; padding-left:10px}
+.list-post-ngang .post-item:last-child{border-bottom:none}
+.list-post-ngang .post-item{  border-bottom: 1px dashed #f4f4f4;  padding: 7px 10px !important;}
+.list-post-ngang .post-item .post-title{    margin: 0;
+	font-size: 14px;
+	font-weight: normal;}
+.box-blog-post .is-divider{display:none}
+.list-post-ngang{border: 1px solid #e9e9e9;margin-left:0 !important; margin-right:0 !important; background: white;
+	padding: 8px;}
+.slider-section .section-title-normal{    margin-bottom: 0;}
+.TextCaptions .item.is-selected{color:#ea0e86}
+.list-post-ngang .post-item .post-title:hover{color:#e31587}
+.slider-section .col{padding-bottom:0}
+.TextCaptions .item:last-child{border-right:none !important
+}
+.TextCaptions .item{font-size:12px; border-right: 1px solid #e9e9e9 !important; width:20%}
+.header-bottom-nav > li > a {
+	line-height: 16px; font-size:16px;
+}.nav-dropdown-default{border:none; padding:0}
+.nav-dropdown-default li a{font-size:15px; color:black}
+.nav-dropdown-default li a:hover{color:#e11088}
+.TextCaptions{border: 1px solid #e9e9e9;padding:5px !important}.thong-bao {
+	background: #DCEDC8;
+	padding: 10px;
+	margin-bottom: 10px;
+	border-radius: 4px;
+	font-size: 14px;
+	color: #2E7D32;
+	margin-top: 8px;
+}.thong-bao ul {
+	margin-bottom: 0;
+}.single-product .product-info {padding-bottom:0;
+	padding-top: 0;
+	padding-right: 0;
+	border-right: none;
+	padding-left: 0;
+}
+.row2 .row-info .cot2{float:left; display:inline-block;width:34%; }
+.khoi-box .box-title{background: url(../../uploads/2019/11/red-pattern.png);
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;font-size:14px;
+	text-align: center;
+	color: white;
+	padding: 8px;}
+.khoi-box ul.list-star li:before {color: #FF9800;
+	content: '\f005';
+	font-size: 14px;
+	font-family: 'Font Awesome 5 Free';
+	margin-right: 10px;
+	top: 0;
+	position: relative;
+	left: 0;
+}
+.khoi-box ul li{margin-bottom: 0;
+	font-size: 14px;
+	list-style: none;}
+.khoi-box ul.list-star{text-align:left;     padding: 10px;margin-bottom:0}
+.cot2 .nut-dang-ky{background:#8BC34A}
+.cot2 .khoi-box{ text-align:center; border:1px solid #8bc34a;
+	border-radius: 6px;}
+.khoi-box .box-title label{    margin-bottom: 0;
+	text-transform: none;
+	color:white;
+	font-size: 17px;}
+.row2 .row-info .cot3{float:left; display:inline-block;    padding-left: 15px;width:24%; 
+}
+.row2 .row-info .cot1{text-align:center; padding-right:15px; float:left; display:inline-block;width:42%}
+.row2 .row-info{display: inline-block;
+	width: 100%;
+	clear: both;}
+.single-product #product-sidebar{padding-bottom:0; padding-left:15px}.product-main {
+	padding: 20px 0 10px 0;
+}.product-info .breadcrumbs {
+	text-transform: none;
+	font-size: 14px;
+}
+.san-pham-section .col.large-12{padding-bottom:0}
+.single-product .product-info .price, .single-product .product-info .price del span{font-size:14px; color:gray}
+.single-product .product-info .price span.amount, .single-product .product-info .price ins span{font-size:23px !important;
+	color: #f92e33 !important;
+	font-weight: bold;
+}
+.star-rating span:before{color: #FFC107;}
+.single-product .product-info .product-title{margin-bottom:0; font-size:20px}
+.thong-tin-ky-thuat{    margin-bottom: 15px;
+	border-top: 1px dashed #eaeaea;}
+.thong-tin-ky-thuat .row-info{display: inline-block;
+	clear: both;
+	width: 100%;
+	padding: 5px 0;
+	border-bottom: 1px dashed #eaeaea;
+	font-size: 14px;}
+.thong-tin-ky-thuat .row-info .left{width:70%; display:inline-block; float:left}
+.thong-tin-ky-thuat .row-info .right{text-align: center;
+	width: 30%;
+	display: inline-block;
+	background: #e4e4e4;
+	border-radius: 4px;
+	color: #292929;}.product-summary .quantity{display:none}
+.thong-tin-ky-thuat .row-info .right:hover a{color:white !important}
+.thong-tin-ky-thuat a{padding: 4px 10px;
+	border-radius: 4px;
+	color: #3c3c3c;
+	width: 100%;
+	display: contents;}span.widget-title {font-size: 19px;
+		font-weight: 500;
+		text-transform: none;
+		letter-spacing: 0;
+		display: block;
+		margin-bottom: 10px;
+		color: #e41984;
+}.widget .is-divider{display:none}
+.box-live-demo .left a:hover{background:#757575;}
+.box-live-demo .right a:hover{background:#5d9220}
+.thong-tin-ky-thuat .row-info .right:hover{background:#8bc34a; color:white}.fa.fa-credit-card{margin-right:0 !important}
+.buy_now_button{padding:0; margin-bottom:0; margin-right: 0;
+	width: 48%;
+	display: inline-block;
+	float: right;
+	text-transform: none;
+	border-radius: 4px;
+	letter-spacing: 0;
+	font-size: 16px;}
+.single_add_to_cart_button{margin-bottom:0; width: 48%;
+	float: left;
+	text-transform: none;
+	border-radius: 4px;
+	letter-spacing: 0;
+	font-size: 16px;}
+.woocommerce-product-gallery{    transition: opacity 0.25s ease-in-out 0s;
+	border: 1px solid #ececec;
+	border-radius: 4px;}
+.single-product form.cart{    display: inline-block;
+	width: 100%;margin-bottom:0}
+.box-live-demo{margin-top:15px; width:100%; display:inline-block; clear:both}
+.box-live-demo .left{width:49%; float:left; display:inline-block; text-align:center}
+.box-live-demo .right a{font-size:15px; width: 100%;
+	display: block;
+	background: #71ab2e;
+	color: white;
+	padding: 6px 10px;
+	border-radius: 5px;}
+.fa, .far{padding-right:12px}
+.box-live-demo .left a{ font-size:15px;   background: #888888; width:100%;
+	border-radius: 4px;display:block;
+	padding: 6px 10px;
+	color: white;}
+.box-live-demo .right{width:49%; float:right; display:inline-block; text-align:center}#block_widget-2 .icon-box:hover{background:white}
+#block_widget-2 .icon-box{background: #fafafa;
+	padding: 2px;
+	margin-bottom: 10px;
+	border-radius: 4px;
+	border: 1px dashed #ececec}
+#block_widget-2 .icon-box .icon-box-text{padding-left: 0;
+	font-size: 14px;}
+#block_widget-2 .icon-box h4{    font-size: 15px;
+	margin-bottom: -2px;
+	padding-top: 3px;
+}
+.cot3 .khoi-box .box-title{background:url(../../uploads/2019/11/yellow-pattern-1.png)}
+.nut-dang-ky:hover{color:white}
+.nut-dang-ky{
+	background: #FFA000;
+	padding: 8px 15px;
+	text-align: center;
+	color: white;
+	border-radius: 22px;
+	font-size: 15px;font-weight:500}
+.cot1 .khoi-box{    border-radius: 6px;
+	border: 1px solid #ffa000;}
+.cot2 .khoi-box .box-title{background:#71ab2e;}
+.cot3 .khoi-box {
+	text-align: center;
+	border: 1px solid #f4d036;
+	border-radius: 6px;
+}
+.cot3 .khoi-box .box-info h4{color:#e31585}
+.nut-dang-ky:hover{    box-shadow: 2px 5px 7px #0000002e;}
+.cot1 .nut-dang-ky{    background: #F57C00;}
+.cot3 .khoi-box .box-info{padding: 10px 0px 3px 0;
+	font-size: 14px;}
+.single-product .woocommerce-tabs .tab-panels{font-size:15px; border: 1px solid #ddd;
+	background-color: #fff;
+	padding: 30px;
+	border: 1px solid #ececec;
+	border-radius: 0px 5px 5px 5px;
+	padding: 10px;
+	box-shadow: 2px 2px 10px #0000001a;}
+.row-info .left{width:72%; float:left; display:inline-block}.product-footer .woocommerce-tabs {
+	padding: 0;
+	border-top: 0;
+}.nav-tabs>li>a {
+	background: #eaeaea;
+	font-family: "roboto",sans-serif;
+	font-size: 15px;
+	text-transform: none;
+	color: black;
+	font-weight: 700;
+}
+.product_list_widget li a{font-size:15px}
+.recent-blog-posts a{font-size:15px; margin-bottom:0}
+.mr-half .badge-inner{border-radius:99%}
+.product_list_widget span.amount{    color: #e80000;}ul.product_list_widget li img{border-radius:99%}
+.product_list_widget, .flatsome_recent_posts ul{border: 1px solid #ececec;
+	border-radius: 5px;
+	padding: 10px;
+	box-shadow: 2px 2px 10px #0000001a;}
+.product-footer{margin-top:20px}
+.row-info .right{padding-left:15px; width:28%; float:left; display:inline-block}
+.single-product .related h3{    margin-bottom: 0;
+	text-transform: none;
+	letter-spacing: 0;}
+.single-product .related .product-small.box{background: white;
+	box-shadow: 2px 2px 12px #00000018;
+	border-radius: 5px;}
+.related .product-small.box .box-text{padding:15px 10px}
+.related .product-small.box .product-title a{margin-bottom: 6px;	}
+.related .product-small.box .price ins span, .related .product-small.box .price span.amount{font-size:16px; font-weight:normal}div#reviews.woocommerce-Reviews {
+	border-bottom: 1px solid #ddd;
+	width:auto;
+	max-width: 100%;
+
+}.product-section {
+	border-top: 0;
+}
+.single-product .product-info a.devvn_buy_now_style{display:none}#nut-buy {
+	border: 1px solid #ececec;
+	border-radius: 5px;
+	box-shadow: 2px 2px 10px #00000012;
+	padding: 15px;
+	text-align: center;
+}#nut-buy img {
+	border-radius: 99%;
+	margin-bottom: 10px;
+	border: 4px solid #FFECB3;
+}#nut-buy h3 {
+	font-size: 16px;
+}#nut-buy .price {
+	margin-bottom: 10px;
+}#nut-buy .price .ins {
+	color: #E91E63;
+	font-size: 18px;
+	margin-left: 10px;
+}#nut-buy p, #nut-buy ul {
+	font-size: 13px;
+	color: gray;
+	text-align: justify;
+}#nut-buy p.des {
+	text-align: center;
+	color: #FF9800;
+}#nut-buy ul li{margin-bottom:0}
+a.devvn_buy_now_style{margin-bottom:0; font-size:16px; text-transform:none;background-image: linear-gradient(to right, #ca1177 , #E91E63);}a.devvn_buy_now_style:hover, a.devvn_buy_now_style:focus{background:#e31687}
+.devvn-popup-title, .popup-customer-info-group .devvn-order-btn{    text-transform: none;background-image: linear-gradient(to right, #ca1177 , #E91E63);}.devvn_prod_variable{display:none}.devvn-popup-quickbuy{font-family:"roboto", sans-serif}
+span.devvn_title {display:block;
+	font-size: 17px;}
+.devvn_price span{color:red}
+.product-small.box{background:white; box-shadow:2px 2px 20px #0000002b; border-radius:5px}
+.product-small.box .product-title{    height: 40px;
+	overflow: hidden; margin-bottom:9px}.product-small.box .product-title a:hover{color:#e31586}
+.product-small.box .category{    color: #8BC34A;}
+.product-small.box .product-title a{color:black}
+.product-small.box .price, .product-small.box .price del span{color:gray; font-size:15px}
+.product-small.box .price span.amount, .product-small.box .price ins span{font-size:16px !important; font-weight:normal; color: #e31687 !important;}
+.product-small.box .box-image{border-top-left-radius:5px; border-top-right-radius:5px}.tin-tuc-section .col.large-12{padding-bottom:0}
+.list-post .post-item .box-text{    padding: 0;
+	padding-top: 10px;
+	text-align: left;}
+.list-post .post-item .post-title{font-size: 16px;
+	height: 60px;
+	overflow: hidden; margin-bottom:6px}
+.list-post .post-item .from_the_blog_excerpt {margin: 0;
+	font-size: 14px;
+	height: 41px;
+	overflow: hidden;}
+.list-post .post-item .from_the_blog_comments {display:none}
+.list-post .post-item .box-image{border-radius:5px}
+.tin-tuc-section .list-post-ngang .post-item{padding:8px 10px !important}
+.tin-tuc-section .list-post-ngang .post-item .post-title {
+
+	font-size: 15px;
+	font-weight: 500;
+}
+.list-post .post-item .post-title:hover{color:#e21586}
+.list-post .post-item a:hover{color:black;}
+.tieu-chi-section .row2{background: white;}
+.footer-section .col{padding-bottom:0}.footer-secondary {
+	padding: 0;
+}
+.copyright-footer p, .copyright-footer h4{margin-bottom:0}
+.absolute-footer {
+	font-size: 14px;
+	border-top: 1px solid #f0f0f0;
+}
+.banner-section .col{padding-bottom:0}.product-small .box-image:hover::before{
+	-webkit-animation:shine .75s;animation:shine .75s
+}
+@-webkit-keyframes shine{
+	100%{left:125%}
+}
+@keyframes shine{
+	100%{left:125%}
+}
+.product-small .box-image::before{
+	position:absolute;
+	top:0;
+	left:-75%;
+	z-index:2;
+	display:block;
+	content:'';
+	width:50%;
+	height:100%;
+	background:-webkit-linear-gradient(left,rgba(255,255,255,0) 0,rgba(255,255,255,.3) 100%);
+	background:linear-gradient(to right,rgba(255,255,255,0) 0,rgba(255,255,255,.3) 100%);
+	-webkit-transform:skewX(-25deg);transform:skewX(-25deg)
+}.post-item .box-image:hover::before{
+	-webkit-animation:shine .75s;
+	animation:shine .75s}
+@-webkit-keyframes shine{
+	100%{left:125%}
+}
+@keyframes shine{
+	100%{left:125%}
+}
+.post-item .box-image::before{
+	position:absolute;
+	top:0;
+	left:-75%;
+	z-index:2;
+	display:block;
+	content:'';
+	width:50%;
+	height:100%;
+	background:-webkit-linear-gradient(left,rgba(255,255,255,0) 0,rgba(255,255,255,.3) 100%);
+	background:linear-gradient(to right,rgba(255,255,255,0) 0,rgba(255,255,255,.3) 100%);
+	-webkit-transform:skewX(-25deg);transform:skewX(-25deg)
+}.tdk-product-loop-custom-product-meta {
+	margin: 0px 0 10px 0;
+}.tdk-product-loop-custom-product-meta .last-updated-date {
+	background: #2196F3;
+	color: white;
+	padding: 4px 8px;
+	border-radius: 4px;
+	font-size: 12px;
+	margin-right: 8px;
+}.tdk-product-loop-custom-product-meta .version {
+	background: #7dbd33;
+	color: white;
+	padding: 4px 8px;
+	border-radius: 4px;
+	font-size: 12px;
+}.tdk-product-loop-custom-product-meta i {padding-right:5px;
+
+}#breadcrumbs {
+	margin-bottom: 10px;
+	font-size: 15px;
+}.blog-single .entry-header .entry-meta {
+	font-size: 14px !important;
+	letter-spacing: 0;
+	text-transform: none;
+	color: gray !important;
+	background: none;
+	border-top: none !important;
+	padding-top: 0 !important;
+	padding-left: 0 !important;
+}.is-divider {
+	display: none;
+}
+.blog-single .article-inner .badge.post-date {
+	top: 4%;
+	left: 2%;
+}.xem-them .tieu-de-xem-them {
+	font-weight: 700;
+	display: block;
+	margin-bottom: 10px;
+	font-size: 19px;
+	color: black;
+}.xem-them ul li {
+	margin-bottom: 3px;
+}.xem-them ul li a {
+	font-weight: 700;
+	font-size: 16px;
+	color: #D81B60;
+}.blog-single .blog-share {
+	text-align: left;
+}.blog-single .entry-meta {
+	text-transform: none;
+	font-size: 14px;
+	letter-spacing: 0;
+	color: gray;
+	border-top: 1px solid #e2e2e2;
+	border-bottom: 1px solid #e2e2e2;
+	padding: 10px;
+	background: #f9f9f9;
+}.danh-muc {
+	margin-bottom: 15px;
+}.danh-muc span.title, .the-tim-kiem span.title {
+	border-radius: 4px;
+	background: #E91E63;
+	padding: 4px 10px;
+	color: white;
+	margin-right: 5px;
+}.danh-muc a, .the-tim-kiem a {
+	border-radius: 4px;
+	margin-bottom: 10px;
+	padding: 4px 10px;
+	background: #dedede;
+	color: #464646;
+}.danh-muc a:hover, .the-tim-kiem a:hover {
+	background: #FF9800;
+	color: white;
+}.bai-viet-lien-quan {
+	margin-top: 15px;
+}.bai-viet-lien-quan h3 {
+	font-size: 19px;
+	color: black;
+}.bai-viet-lien-quan ul {
+	margin-bottom: 0;
+	display: inline-block;
+	width: 100%;
+}.bai-viet-lien-quan ul li {
+	list-style: none;
+	width: 25%;
+	color: graytext;
+	float: left;
+	padding-left: 4px;
+	padding-right: 5px;
+}.bai-viet-lien-quan ul li .box-image img {
+	height: 120px;
+	border-radius: 4px;
+	object-fit: cover;
+	object-position: center;
+}.bai-viet-lien-quan h4 {
+	font-size: 15px;
+	color: black;
+	line-height: 19px;
+	padding-top: 7px;
+	height: 64px;
+	overflow: hidden;
+}.bai-viet-lien-quan h4:hover {
+	color: #E91E63;
+	text-decoration: underline;
+}
+.blog-single .large-3{padding-left:0} 
+.ftwp-item.ftwp-has-sub button{display:none !important}
+.badge-inner {
+	border-radius: 99%;font-weight:normal}#ftwp-container #ftwp-list.ftwp-list-nest.ftwp-colexp-icon .ftwp-anchor {
+		padding-left: 10px;
+}#ftwp-container.ftwp-wrap #ftwp-contents {
+	border-color: rgb(218, 218, 218);
+}
+#ftwp-container.ftwp-wrap #ftwp-trigger {
+	border-color: rgb(228, 25, 132); top:70px
+}
+.san-pham-lien-quan h5.product-title{font-size:18px; margin:0; margin-bottom:7px}
+.san-pham-lien-quan .cot3{width: 18%;
+	float: left;
+	display: inline-block;}
+.san-pham-lien-quan .ngay-dang{    font-size: 14px;
+	color: #afafaf;}
+.san-pham-lien-quan .price{ margin:15px; display: block;
+	text-align: center;
+	font-size: 21px;
+	font-weight: 500;
+	color: #fa3031;}
+.san-pham-lien-quan .nut-xem-chi-tiet:hover{background:#ff5722}
+.san-pham-lien-quan .nut-xem-chi-tiet{display: block;
+	width: 100%;
+	background: #fe341e;    background-image: linear-gradient(to right, #e31587 , #8112b9);
+	text-align: center;
+	border-radius: 4px;
+	padding: 6px;
+	color: white;
+	font-size: 15px;
+	margin: 15px 0;}
+.san-pham-lien-quan .tom-tat p{    height: 65px;
+	overflow: hidden;}
+.san-pham-lien-quan .tom-tat{    margin: 0;
+	font-size: 14px;}
+.san-pham-lien-quan ul li .box-text{padding:0; padding-right:15px; width:65%; float:left; display:inline-block}
+.san-pham-lien-quan ul li{display:inline-block; list-style: none;
+	background: white;
+	margin-left: 0;
+	border: 1px solid #ececec;
+	border-radius: 5px;
+	padding: 15px;
+	margin-bottom: 12px;
+	box-shadow: 2px 2px 10px #0000001a;}
+.san-pham-lien-quan ul li:hover{    background: #fff7fa;
+	border: 1px dashed #e41984;}
+.blog-archive .archive-page-header .large-12 {
+	text-align: left;
+	padding-bottom: 0px;
+}.blog-archive h1.page-title {
+	text-transform: none;
+	letter-spacing: 0;
+	font-size: 23px;
+}.blog-archive {
+	background: #f7f7f7;
+}.blog-archive .post-item .box-text {
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	padding: 10px 10px 20px 10px;
+	background: white;
+}.blog-archive .post-item .post-title:hover {
+	color: #E91E63;
+	text-decoration: underline;
+} .blog-archive .post-item .post-title {font-size:16px;
+	margin-bottom: 10px;
+	height: 62px;
+	overflow: hidden;
+}.box-blog-post .is-divider {
+	display: none;
+}
+.blog-archive .post-item .from_the_blog_excerpt {height:40px; overflow:hidden
+}
+.san-pham-lien-quan ul{margin-bottom:0}
+.san-pham-lien-quan .anh-dai-dien{display: inline-block;
+	width: 17%;
+	float: left;
+	padding-right: 15px;}
+.san-pham-lien-quan{display: block;}
+.archive .product-small.box .box-text{    padding: 15px 10px;
+	text-align: center;}
+a.back-to-top{background:#e41984 !important; border:none !important; color:white}
+.woocommerce-ordering select{font-size:14px}
+.blog-archive .post-item a:hover{color:black}.page-wrapper {
+	padding-top: 30px;
+	padding-bottom: 0;
+}
+.blog-archive .post-item .box-image{border-top-left-radius:5px; border-top-right-radius:5px}
+.san-pham-lien-quan h2{font-size:20px}h1.entry-title.mb {
+	margin-bottom: 15px;
+	text-transform: none;
+	letter-spacing: 0;
+}.page-right-sidebar .large-9 {
+	border-right: none;
+}.page-right-sidebar .large-3 {
+	padding-left: 0;
+}.success-color {
+	color: #7a9c59;
+	background: #8BC34A;
+	border-radius: 4px;
+	padding: 7px 20px;
+	font-size: 15px;
+	color: white;
+}
+.page-inner .has-border {
+	border: 1px dashed #e91e63;
+	padding: 15px 15px 15px;
+	border-radius: 5px;
+	background: #fff9f9;
+}
+#payment button{border-radius:5px; text-transform:none}
+.woocommerce-cart .woocommerce{box-shadow: 2px 2px 20px #0000001a;
+	padding: 20px;
+	border-radius: 5px;
+}
+.cart_totals .button {
+	border-radius: 5px;
+	text-transform: none;
+}
+
+.button-continue-shopping, .button.primary.mt-0.pull-left{border-radius:5px; text-transform:none;}
+.woocommerce-input-wrapper input{font-size: 14px;
+	border-radius: 5px;
+	box-shadow: none;}
+.widget_shopping_cart_content .woocommerce-mini-cart{border:none; box-shadow:none; padding:0}p.form-row-first, p.form-row-last{width:100%}
+.widget_shopping_cart_content{padding:15px}
+.widget_shopping_cart_content a.button{text-transform:none; border-radius:5px; color:white}
+.devvn_prod_cmt{max-width:100%}
+
+@media only screen and (max-width: 48em) {
+	/*************** ADD MOBILE ONLY CSS HERE  ***************/
+	.page-right-sidebar .large-3 {
+		padding-left: 15px;
+	}.off-canvas:not(.off-canvas-center) .nav-vertical li>a {
+		padding-left: 20px;
+		padding-top: 12px;
+		padding-bottom: 12px;
+		text-transform: none;
+		font-size: 16px;
+		color: black;
+	}
+	.off-canvas:not(.off-canvas-center) .nav-vertical li ul{padding-bottom:0}
+	.off-canvas:not(.off-canvas-center) .nav-vertical li ul li a{padding-top:7px; padding-bottom:7px; font-size:15px}.TextCaptions .item{width:33.33%}.slider-section .col, .tieu-chi-section .col{padding-bottom:10px}.list-post-ngang .post-item{flex-basis:50%; max-width:50%}
+	.list-post-ngang .post-item .box-text{padding:0; padding-top:8px}
+	.tieu-chi-section .col {
+		padding: 7px;
+	}.tdk-product-loop-custom-product-meta .version, .tdk-product-loop-custom-product-meta .last-updated-date{padding:4px !important}.product-small.box .product-title{height:37px !important}
+	.tin-tuc-section .list-post .post-item{flex-basis:50%; max-width:50%}
+	.list-post .post-item .post-title {
+		font-size: 15px;
+		height: 56px;}
+	#footer .tieu-chi-section .col.medium-2{flex-basis:50%; max-width:50%}
+	.header-main {
+		box-shadow: 2px 2px 10px #00000024;
+	}.san-pham-lien-quan ul li .box-text{width:54%}.san-pham-lien-quan .cot3{width:29%}
+	.san-pham-lien-quan h5.product-title {
+		font-size: 15px;
+		margin: 0;
+	}.san-pham-lien-quan .ngay-dang{display:none}.san-pham-lien-quan ul li{margin-bottom:7px}
+	.san-pham-lien-quan .tom-tat p {display:none
+	}.san-pham-lien-quan .price {
+		margin: 0;}.san-pham-lien-quan .nut-xem-chi-tiet{font-size: 13px;margin:0; margin-top:10px}
+	.san-pham-lien-quan .nut-xem-chi-tiet .fa{display:none}.bai-viet-lien-quan ul li{width:50%}.bai-viet-lien-quan ul li .box-image img{height:100px}.blog-single .large-3{padding-left:15px}
+	.blog-archive .post-item{flex-basis: 50%;
+		max-width: 50%;padding:5px}
+	.blog-archive .post-item .post-title {
+		font-size: 15px;
+		height: 57px;
+
+	}.single-product .product-info{padding:10px 15px}.single_add_to_cart_button{padding:0}
+	.fa-cart-plus{padding-right:0}
+	.row2 .row-info .cot1, .row2 .row-info .cot2, .row2 .row-info .cot3{width:100%; padding:10px 0}
+	.row-info .left, .row-info .right{width:100%; padding:10px 0}.related .product-small.box .box-text {
+		padding: 10px 5px;
+	}.tdk-product-loop-custom-product-meta .version, .tdk-product-loop-custom-product-meta .last-updated-date{font-size:12px}
+	.related .product-small.col{padding:5px}
+	.archive .product-small.col{padding:5px}.archive .product-small.box .box-text {
+		padding: 10px 5px;}
+
+}
